@@ -1,0 +1,909 @@
+Script started on 2020-02-06 10:08:49-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cd ..
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit$ cd ..
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ [Krgeary1@g7-36:/import/linux/home1/rgeary1/i240a$ cd submit/lab2
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises/ *
+cp: target '/home/rgeary1/cs240/labs/lab2/exercises/Makefile' is not a directory
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises/*[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cp: missing destination file operand after '/home/rgeary1/cs240/labs/lab2/exercises'
+Try 'cp --help' for more information.
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises  .
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ ls
+exercises  lab2.LOG
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cd ..
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit$ cd lab
+bash: cd: lab: No such file or directory
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit$ cd lab2
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ ls
+exercises  lab2.LOG
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2$ cd exercises/1-hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ls -l
+total 12
+-rw-r--r-- 1 rgeary1 rgeary1 363 Feb  6 10:12 hello.cc
+-rw-r--r-- 1 rgeary1 rgeary1  39 Feb  6 10:12 Makefile
+-rw-r--r-- 1 rgeary1 rgeary1  61 Feb  6 10:12 README
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ gedit README
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ./hello
+usage: ./hello NAME...
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ./hello bart Lis a
+hello bart
+hello Lisa
+hello rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ hello $
+bash: hello: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart Lis[Ksa\[K
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/1-hello/hello bart Lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe748) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) l 13
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) b sayHello
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) l 7
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) p argc
+$1 = 3
+(gdb) p argv
+$2 = (const char **) 0x7fffffffe748
+(gdb) p argv[0]
+$3 = 0x7fffffffea38 "/import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/1-hello/hello"
+(gdb) p arg [Kv[1]
+$4 = 0x7fffffffea87 "bart"
+(gdb) p argv[1]21][C[1P]
+$5 = 0x7fffffffea8c "Lisa"
+(gdb) p *argv@3
+$6 = {
+  0x7fffffffea38 "/import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/1-hello/hello", 0x7fffffffea87 "bart", 0x7fffffffea8c "Lisa"}
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) c.,[KsayHello()
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 2, sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) l
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) backtrace
+#0  sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+(gdb) p argc
+No symbol "argc" in current context.
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p argc
+$7 = 3
+(gdb) fo[K[Kdown
+#0  sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p a[Kb[Kname
+$8 = 0x7fffffffea87 "bart"
+(gdb) c.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) c.sayHello()[K[K[K[K[K[K[K[K[K[K[K[Kp name
+$9 = 0x7fffffffea87 "bart"
+(gdb) c.say[K[K[K[K[Kback
+#0  sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) c.sayh[KHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) p name
+$10 = '\000' <repeats 32 times>
+(gdb) down
+#0  sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p name
+$11 = 0x7fffffffea87 "bart"
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) c.sayHello
+A syntax error in expression, near `.sayHello'.
+(gdb) c.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) backtrace
+#0  sayHello (name=0x7fffffffea87 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe748) at hello.cc:19
+(gdb) p argv
+$12 = (const char **) 0x7fffffffe748
+(gdb) p *argv@3
+$13 = {
+  0x7fffffffea38 "/import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/1-hello/hello", 0x7fffffffea87 "bart", 0x7fffffffea8c "Lisa"}
+(gdb) c. [KsayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) c. sayHello()
+A syntax error in expression, near `. sayHello()'.
+(gdb) c .sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) p name
+$14 = '\000' <repeats 32 times>
+(gdb) down[K[K[K[Kq
+A debugging session is active.
+
+	Inferior 1 [process 4318] will be killed.
+
+Quit anyway? (y or n) y
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ gedit [K[K[K[K[K[Kl
+bash: l: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ls
+hello  hello.cc  Makefile  README
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ gedit hello
+
+
+
+
+^[^[^[
+
+
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ gedit hello.cc
+
+(gedit:5791): Gtk-[1;33mWARNING[0m **: [34m10:31:00.381[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ./ he[K[K[Khello
+usage: ./hello NAME...
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ ./hello bart Lis a
+hello bart
+hello Lisa
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/1-hello$ cd ..
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises$ cd la[K[K2-hello/
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ 
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./ [Khello "bart Li sa:[K"
+Hello Bart Lisa”ÍQπU
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello "bart Lisa"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hello "bart Lisa[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"bart Lisa[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbart Lisa [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvbart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbart Lisa[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbart Lisa [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Hello Bart
+Hello Lisa
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello bart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' bart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bart Lisa[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'bart Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs Lisa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci Lisam Lisa[Cp Lisa[C[Cs Lisa[C[C[Co Lisan Lisa' Lisa[C Lisa[C'Lisa[C[C[C[C simpson'
+Hello Bart Simpson≠U
+Hello Lisa Simpson≠U
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) l
+22	    inWord = std::isalpha(in[i]);
+23	  }
+24	}
+25	
+26	static void
+27	sayHello(const char *name)
+28	{
+29	  std::cout << "Hello " << name << std::endl;
+30	}
+31	
+(gdb) start 'bart simpson' 'lisa simpson'
+Temporary breakpoint 1 at 0x12e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe728) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) l
+31	
+32	
+33	int
+34	main(int argc, const char *argv[])
+35	{
+36	  if (argc == 1) {
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+38	    std::exit(1);
+39	  }
+40	  else {
+(gdb) l 40
+35	{
+36	  if (argc == 1) {
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+38	    std::exit(1);
+39	  }
+40	  else {
+41	    for (int i = 1; i <= argc; i++) {
+42	      const char *name = argv[i];
+43	      char friendlyName[strlen(name)];
+44	      upcaseWords(name, friendlyName);
+(gdb) l 44
+39	  }
+40	  else {
+41	    for (int i = 1; i <= argc; i++) {
+42	      const char *name = argv[i];
+43	      char friendlyName[strlen(name)];
+44	      upcaseWords(name, friendlyName);
+45	      sayHello(friendlyName);
+46	    }
+47	  }
+48	}
+(gdb) n
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+46	    }
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) p i
+$1 = 1
+(gdb) 
+$2 = 1
+(gdb) p *name
+Cannot access memory at address 0x2
+(gdb) p name
+$3 = 0x2 <error: Cannot access memory at address 0x2>
+(gdb) n
+43	      char friendlyName[strlen(name)];
+(gdb) p name
+$4 = 0x7fffffffea6d "bart simpson"
+(gdb) n
+44	      upcaseWords(name, friendlyName);
+(gdb) p friendlyName
+$5 = "\000\000\000\000\000\000\000\000}SUU"
+(gdb) c.sayHello
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+Hello Bart SimpsonUU
+Hello Lisa SimpsonUU
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/../strlen.S:120
+120	../sysdeps/x86_64/multiarch/../strlen.S: No such file or directory.
+(gdb) start hello 'bartsimpson simpson[C[C[C[C[C[C[C' 'lisa simpson'
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Temporary breakpoint 2 at 0x5555555552e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 2, main (argc=4, argv=0x7fffffffe728) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) l
+31	
+32	
+33	int
+34	main(int argc, const char *argv[])
+35	{
+36	  if (argc == 1) {
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+38	    std::exit(1);
+39	  }
+40	  else {
+(gdb) c. [K sayHello()
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+Hello Hello
+Hello Bart SimpsonUU
+Hello Lisa SimpsonUU
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/../strlen.S:120
+120	../sysdeps/x86_64/multiarch/../strlen.S: No such file or directory.
+(gdb) c. sayHello()[C[C[C[C[C[Cl[Kstart hello 'bart simpson' 'lisa simpson'[C[C[C[1P[1P[1P[1P[1P[1P
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Temporary breakpoint 3 at 0x5555555552e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 3, main (argc=3, argv=0x7fffffffe728) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) man c.
+Undefined command: "man".  Try "help".
+(gdb) a c. sayHello()
+Ambiguous command "a c. sayHello()": actions, add-auto-load-safe-path, add-auto-load-scripts-directory, add-inferior...
+(gdb) l
+31	
+32	
+33	int
+34	main(int argc, const char *argv[])
+35	{
+36	  if (argc == 1) {
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+38	    std::exit(1);
+39	  }
+40	  else {
+(gdb) n
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+46	    }
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) n
+43	      char friendlyName[strlen(name)];
+(gdb) n
+44	      upcaseWords(name, friendlyName);
+(gdb) n
+45	      sayHello(friendlyName);
+(gdb) n
+Hello Bart SimpsonUU
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) p friendlyName
+No symbol "friendlyName" in current context.
+(gdb) n
+46	    }
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) n
+43	      char friendlyName[strlen(name)];
+(gdb) n
+44	      upcaseWords(name, friendlyName);
+(gdb) n
+45	      sayHello(friendlyName);
+(gdb) down
+Bottom (innermost) frame selected; you cannot go down.
+(gdb) b sa[K[K[K[Kstart[1Pdownn[Kp friendlyName[C[C[C[C[C[Cn[Kla c. sayHello()[C[C[C[C[C[C[9Pman c.start 'bart simpson' 'lisa simpson'
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Temporary breakpoint 4 at 0x5555555552e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 4, main (argc=3, argv=0x7fffffffe728) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) b sayHello
+Breakpoint 5 at 0x55555555528c: file hello.cc, line 29.
+(gdb) c[Ka c. sayHello
+Ambiguous command "a c. sayHello": actions, add-auto-load-safe-path, add-auto-load-scripts-directory, add-inferior...
+(gdb) a c. sayHello[1P[1P
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 5, sayHello (name=0x7fffffffe5d0 "Bart SimpsonUU") at hello.cc:29
+29	  std::cout << "Hello " << name << std::endl;
+(gdb) l
+24	}
+25	
+26	static void
+27	sayHello(const char *name)
+28	{
+29	  std::cout << "Hello " << name << std::endl;
+30	}
+31	
+32	
+33	int
+(gdb) p name
+$6 = 0x7fffffffe5d0 "Bart SimpsonUU"
+(gdb) n
+Hello Bart SimpsonUU
+30	}
+(gdb) l
+25	
+26	static void
+27	sayHello(const char *name)
+28	{
+29	  std::cout << "Hello " << name << std::endl;
+30	}
+31	
+32	
+33	int
+34	main(int argc, const char *argv[])
+(gdb) n
+main (argc=3, argv=0x7fffffffe728) at hello.cc:41
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+46	    }
+(gdb) l
+41	    for (int i = 1; i <= argc; i++) {
+42	      const char *name = argv[i];
+43	      char friendlyName[strlen(name)];
+44	      upcaseWords(name, friendlyName);
+45	      sayHello(friendlyName);
+46	    }
+47	  }
+48	}
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) n
+43	      char friendlyName[strlen(name)];
+(gdb) p strlen(name)
+$7 = 12
+(gdb) p name
+$8 = 0x7fffffffea7a "lisa simpson"
+(gdb) c. upcaseWords
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 5, sayHello (name=0x7fffffffe5d0 "Lisa SimpsonUU") at hello.cc:29
+29	  std::cout << "Hello " << name << std::endl;
+(gdb) p i
+No symbol "i" in current context.
+(gdb) l
+24	}
+25	
+26	static void
+27	sayHello(const char *name)
+28	{
+29	  std::cout << "Hello " << name << std::endl;
+30	}
+31	
+32	
+33	int
+(gdb) p name
+$9 = 0x7fffffffe5d0 "Lisa SimpsonUU"
+(gdb) n
+Hello Lisa SimpsonUU
+30	}
+(gdb) down upcaseWords
+#0  sayHello (name=0x7fffffffe5d0 "Lisa SimpsonUU") at hello.cc:30
+30	}
+(gdb) n
+main (argc=3, argv=0x7fffffffe728) at hello.cc:41
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+46	    }
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) n
+43	      char friendlyName[strlen(name)];
+(gdb) n
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/../strlen.S:120
+120	../sysdeps/x86_64/multiarch/../strlen.S: No such file or directory.
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 7459] will be killed.
+
+Quit anyway? (y or n) y
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc
+
+(gedit:8035): Gtk-[1;33mWARNING[0m **: [34m10:50:34.920[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ hello 'bart simp son' 'lisa simpa[Kson'
+bash: hello: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.hello 'bart simp[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/hello 'bart sim[1@p[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Hello Bart SimpsøHV
+Hello Lisa SimpsøHV
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chello 'bart simps[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit hello.cc\
+> 
+
+(gedit:8282): Gtk-[1;33mWARNING[0m **: [34m10:51:45.410[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc\[K
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc\./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simps>V„U
+Hello Lisa Simps>V„U
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit hello.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+(gedit:8449): Gtk-[1;33mWARNING[0m **: [34m10:54:13.534[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc./hello 'bart simpson' 'lisa simpson'
+Hello Bart SimpsàÊbU
+Hello Lisa SimpsàÊbU
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit hello.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start 'bart simpson' 'lisa simpson'
+Temporary breakpoint 1 at 0x12e4: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe728) at hello.cc:36
+warning: Source file is more recent than executable.
+36	  if (argc == 1) {
+(gdb) l
+31	
+32	
+33	int
+34	main(int argc, const char *argv[])
+35	{
+36	  if (argc == 1) {
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+38	    std::exit(1);
+39	  }
+40	  else {
+(gdb) b [K[Kn
+41	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+46	    }
+(gdb) p i
+$1 = 1
+(gdb) p argv[i]
+$2 = 0x7fffffffea6d "bart simpson"
+(gdb) n
+42	      const char *name = argv[i];
+(gdb) b upcaseWords
+Breakpoint 2 at 0x5555555551b5: file hello.cc, line 13.
+(gdb) c [K. upCase[K[K[K[KcaseWords
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 2, upcaseWords (in=0x7fffffffea6d "bart simpson", out=0x7fffffffe5d0 "")
+    at hello.cc:13
+13	  bool inWord = false;
+(gdb) l
+8	 *  has enough space for the strlen(in) characters of in.
+9	 */
+10	void
+11	upcaseWords(const char in[], char out[])
+12	{
+13	  bool inWord = false;
+14	  const int n = std::strlen(in);
+15	  for (int i = 0; i < n; i++) {
+16	    if (!inWord && std::isalpha(in[i])) {
+17	      out[i] = std::toupper(in[i]);
+(gdb) p in[]
+A syntax error in expression, near `]'.
+(gdb) p in
+$3 = 0x7fffffffea6d "bart simpson"
+(gdb) p out
+$4 = 0x7fffffffe5d0 ""
+(gdb) n
+14	  const int n = std::strlen(in);
+(gdb) p inWord
+$5 = false
+(gdb) l
+9	 */
+10	void
+11	upcaseWords(const char in[], char out[])
+12	{
+13	  bool inWord = false;
+14	  const int n = std::strlen(in);
+15	  for (int i = 0; i < n; i++) {
+16	    if (!inWord && std::isalpha(in[i])) {
+17	      out[i] = std::toupper(in[i]);
+18	    }
+(gdb) p [K[Kn
+15	  for (int i = 0; i < n; i++) {
+(gdb) pn
+Undefined command: "pn".  Try "help".
+(gdb) p n
+$6 = 10
+(gdb) n
+16	    if (!inWord && std::isalpha(in[i])) {
+(gdb) p in[i]
+$7 = 98 'b'
+(gdb) n
+17	      out[i] = std::toupper(in[i]);
+(gdb) p [in[K[K[Kin[i]
+$8 = 98 'b'
+(gdb) n
+22	    inWord = std::isalpha(in[i]);
+(gdb) p in[i]
+$9 = 98 'b'
+(gdb) n
+15	  for (int i = 0; i < n; i++) {
+(gdb) p [[K[K[Kn
+16	    if (!inWord && std::isalpha(in[i])) {
+(gdb) o[Ko[Kp[out[i]
+A syntax error in expression, near `[out[i]'.
+(gdb) p ouy[Kt[i[[K]
+$10 = 0 '\000'
+(gdb) n
+20	      out[i] = in[i];
+(gdb) n
+22	    inWord = std::isalpha(in[i]);
+(gdb) n
+15	  for (int i = 0; i < n; i++) {
+(gdb) p out[i]
+$11 = 97 'a'
+(gdb) p out[i-1]
+$12 = 66 'B'
+(gdb) p in[i]
+$13 = 97 'a'
+(gdb) n
+16	    if (!inWord && std::isalpha(in[i])) {
+(gdb) n
+20	      out[i] = in[i];
+(gdb) n
+22	    inWord = std::isalpha(in[i]);
+(gdb) n
+15	  for (int i = 0; i < n; i++) {
+(gdb) n
+16	    if (!inWord && std::isalpha(in[i])) {
+(gdb) p i
+$14 = 3
+(gdb) c [K[Kl
+11	upcaseWords(const char in[], char out[])
+12	{
+13	  bool inWord = false;
+14	  const int n = std::strlen(in);
+15	  for (int i = 0; i < n; i++) {
+16	    if (!inWord && std::isalpha(in[i])) {
+17	      out[i] = std::toupper(in[i]);
+18	    }
+19	    else{
+20	      out[i] = in[i];
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 9290] will be killed.
+
+Quit anyway? (y or n) y
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello.cc 'bart  simpson' 'lisa simpson'
+bash: ./hello.cc: Permission denied
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello.cc 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'bart s[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'bart si[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'bart sim[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Hello Bart SimpslÁ∂U
+Hello Lisa SimpslÁ∂U
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.cc 'bart [3@sim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit hello.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+(gedit:9876): Gtk-[1;33mWARNING[0m **: [34m11:04:49.160[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simps€2LV
+Hello Lisa Simps€2LV
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit hello.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hello 'bart simpson' 'lisa simpson'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit hello.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+(gedit:10042): Gtk-[1;33mWARNING[0m **: [34m11:06:04.163[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gedit hello.cc./hello 'bart simpson' 'lisa simpson'
+Hello Bart SimpsÏ8ÖU
+Hello Lisa SimpsÏ8ÖU
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simpsxâ6V
+Hello Lisa Simpsxâ6V
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simps‚èV
+Hello Lisa Simps‚èV
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simpsπ»ÄU
+Hello Lisa Simpsπ»ÄU
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ ./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simps˚¬ÛU
+Hello Lisa Simps˚¬ÛU
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ qdb
+bash: qdb: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ qdb he[K[K[K[K[Kbd hello
+bash: qbd: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ qdb hello
+bash: qdb: command not found
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) b upcaseWords
+Breakpoint 1 at 0x11b5: file hello.cc, line 13.
+(gdb) b sayHello
+Breakpoint 2 at 0x128f: file hello.cc, line 29.
+(gdb) c u[K[K. upCase[K[K[K[KcaseWords
+The program is not being run.
+(gdb) start 'bart simpson' 'lisa simpson'
+Temporary breakpoint 3 at 0x12e4: file hello.cc, line 36.
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/2-hello/hello 'bart simpson' 'lisa simpson'
+
+Temporary breakpoint 3, main (argc=3, argv=0x7fffffffe728) at hello.cc:36
+warning: Source file is more recent than executable.
+36	  if (argc == 1) {
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 10307] will be killed.
+
+Quit anyway? (y or n) y
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ makegdb helloq[C[C[C[C[C[C[C[Cbd[C[C[C[C[C[Cdb[K./hello 'bart simpson' 'lisa simpson'
+Hello Bart Simpson
+Hello Lisa Simpson
+Segmentation fault
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/2-hello$ (da[K[K[Kdamn im[K[K[K[K[K[K[Kcd ..
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises$ cd 3-overload/
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/3-overload$ gedit overloa d.cc
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/3-overload$ make [K
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/3-overload$ ./overload 
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/3-overload$ gdb overload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) b f(int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f(int*)
+Breakpoint 1 at 0x117d: file overload.cc, line 3.
+(gdb) r
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe648) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p a
+$1 = (int *) 0x7fffffffe648
+(gdb) p *a
+$2 = 2
+(gdb) p *a = 5
+$3 = 5
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) c
+Continuing.
+f(a) = 3; f(&a) = 10; f(a, b) = 2
+[Inferior 1 (process 10682) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe648) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p *a = 5
+$4 = 5
+(gdb) c
+Continuing.
+f(a) = 3; f(&a) = 10; f(a, b) = 2
+[Inferior 1 (process 10787) exited normally]
+(gdb) c .f(int#[K*)
+The program is not being run.
+(gdb) c .f(int*)[C[K[K[K[K[K[K[K[K[K[Kr
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe648) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) c .[K[K. f(int*)
+A syntax error in expression, near `. f(int*)'.
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/rgeary1/projects/i240a/submit/lab2/exercises/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe648) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p a
+$5 = (int *) 0x7fffffffe648
+(gdb) p *a
+$6 = 2
+(gdb) p *a=5
+$7 = 5
+(gdb) n
+main () at overload.cc:15
+15	    << std::endl;
+(gdb) n
+f(a) = 3; f(&a) = 10; f(a, b) = 2
+16	}
+(gdb) n
+__libc_start_main (main=0x5555555551a8 <main()>, argc=1, argv=0x7fffffffe748, 
+    init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffe738) at ../csu/libc-start.c:342
+342	../csu/libc-start.c: No such file or directory.
+(gdb) n
+[Inferior 1 (process 10935) exited normally]
+(gdb) q
+rgeary1@g7-36:/import/linux/home1/rgeary1/i240a/submit/lab2/exercises/3-overload$ exit
+
+Script done on 2020-02-06 11:15:26-05:00 [COMMAND_EXIT_CODE="0"]
