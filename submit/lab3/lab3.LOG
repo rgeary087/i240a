@@ -1,0 +1,415 @@
+Script started on 2020-02-13 10:02:47-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rgeary1@g7-35:/import/linux/home1/rgeary1/i240a/submit/lab3$ ls
+lab3.LOG
+rgeary1@g7-35:/import/linux/home1/rgeary1/i240a/submit/lab3$ cp -r ~/cs240/labs/lab3/exercises .
+cp: cannot stat '/home/rgeary1/cs240/labs/lab3/exercises': No such file or directory
+rgeary1@g7-35:/import/linux/home1/rgeary1/i240a/submit/lab3$ cd cd[Ks[K[K~/cs240
+rgeary1@g7-35:~/cs240$ ls
+announce.html  docs	      hws	  labs	    README.md
+announce.umt   exams-quizzes  index.html  misc	    slides
+assets	       exercises      index.umt   projects  umt.make
+rgeary1@g7-35:~/cs240$ cd labs
+rgeary1@g7-35:~/cs240/labs$ ls
+index.html  index.umt  lab0  lab1  lab2  submission
+rgeary1@g7-35:~/cs240/labs$ git [K[K[K[Kcd ..
+rgeary1@g7-35:~/cs240$ git pull
+/home/rgeary1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 214, done.[K
+remote: Counting objects:   0% (1/214)   [Kremote: Counting objects:   1% (3/214)   [Kremote: Counting objects:   2% (5/214)   [Kremote: Counting objects:   3% (7/214)   [Kremote: Counting objects:   4% (9/214)   [Kremote: Counting objects:   5% (11/214)   [Kremote: Counting objects:   6% (13/214)   [Kremote: Counting objects:   7% (15/214)   [Kremote: Counting objects:   8% (18/214)   [Kremote: Counting objects:   9% (20/214)   [Kremote: Counting objects:  10% (22/214)   [Kremote: Counting objects:  11% (24/214)   [Kremote: Counting objects:  12% (26/214)   [Kremote: Counting objects:  13% (28/214)   [Kremote: Counting objects:  14% (30/214)   [Kremote: Counting objects:  15% (33/214)   [Kremote: Counting objects:  16% (35/214)   [Kremote: Counting objects:  17% (37/214)   [Kremote: Counting objects:  18% (39/214)   [Kremote: Counting objects:  19% (41/214)   [Kremote: Counting objects:  20% (43/214)   [Kremote: Counting objects:  21% (45/214)   [Kremote: Counting objects:  22% (48/214)   [Kremote: Counting objects:  23% (50/214)   [Kremote: Counting objects:  24% (52/214)   [Kremote: Counting objects:  25% (54/214)   [Kremote: Counting objects:  26% (56/214)   [Kremote: Counting objects:  27% (58/214)   [Kremote: Counting objects:  28% (60/214)   [Kremote: Counting objects:  29% (63/214)   [Kremote: Counting objects:  30% (65/214)   [Kremote: Counting objects:  31% (67/214)   [Kremote: Counting objects:  32% (69/214)   [Kremote: Counting objects:  33% (71/214)   [Kremote: Counting objects:  34% (73/214)   [Kremote: Counting objects:  35% (75/214)   [Kremote: Counting objects:  36% (78/214)   [Kremote: Counting objects:  37% (80/214)   [Kremote: Counting objects:  38% (82/214)   [Kremote: Counting objects:  39% (84/214)   [Kremote: Counting objects:  40% (86/214)   [Kremote: Counting objects:  41% (88/214)   [Kremote: Counting objects:  42% (90/214)   [Kremote: Counting objects:  43% (93/214)   [Kremote: Counting objects:  44% (95/214)   [Kremote: Counting objects:  45% (97/214)   [Kremote: Counting objects:  46% (99/214)   [Kremote: Counting objects:  47% (101/214)   [Kremote: Counting objects:  48% (103/214)   [Kremote: Counting objects:  49% (105/214)   [Kremote: Counting objects:  50% (107/214)   [Kremote: Counting objects:  51% (110/214)   [Kremote: Counting objects:  52% (112/214)   [Kremote: Counting objects:  53% (114/214)   [Kremote: Counting objects:  54% (116/214)   [Kremote: Counting objects:  55% (118/214)   [Kremote: Counting objects:  56% (120/214)   [Kremote: Counting objects:  57% (122/214)   [Kremote: Counting objects:  58% (125/214)   [Kremote: Counting objects:  59% (127/214)   [Kremote: Counting objects:  60% (129/214)   [Kremote: Counting objects:  61% (131/214)   [Kremote: Counting objects:  62% (133/214)   [Kremote: Counting objects:  63% (135/214)   [Kremote: Counting objects:  64% (137/214)   [Kremote: Counting objects:  65% (140/214)   [Kremote: Counting objects:  66% (142/214)   [Kremote: Counting objects:  67% (144/214)   [Kremote: Counting objects:  68% (146/214)   [Kremote: Counting objects:  69% (148/214)   [Kremote: Counting objects:  70% (150/214)   [Kremote: Counting objects:  71% (152/214)   [Kremote: Counting objects:  72% (155/214)   [Kremote: Counting objects:  73% (157/214)   [Kremote: Counting objects:  74% (159/214)   [Kremote: Counting objects:  75% (161/214)   [Kremote: Counting objects:  76% (163/214)   [Kremote: Counting objects:  77% (165/214)   [Kremote: Counting objects:  78% (167/214)   [Kremote: Counting objects:  79% (170/214)   [Kremote: Counting objects:  80% (172/214)   [Kremote: Counting objects:  81% (174/214)   [Kremote: Counting objects:  82% (176/214)   [Kremote: Counting objects:  83% (178/214)   [Kremote: Counting objects:  84% (180/214)   [Kremote: Counting objects:  85% (182/214)   [Kremote: Counting objects:  86% (185/214)   [Kremote: Counting objects:  87% (187/214)   [Kremote: Counting objects:  88% (189/214)   [Kremote: Counting objects:  89% (191/214)   [Kremote: Counting objects:  90% (193/214)   [Kremote: Counting objects:  91% (195/214)   [Kremote: Counting objects:  92% (197/214)   [Kremote: Counting objects:  93% (200/214)   [Kremote: Counting objects:  94% (202/214)   [Kremote: Counting objects:  95% (204/214)   [Kremote: Counting objects:  96% (206/214)   [Kremote: Counting objects:  97% (208/214)   [Kremote: Counting objects:  98% (210/214)   [Kremote: Counting objects:  99% (212/214)   [Kremote: Counting objects: 100% (214/214)   [Kremote: Counting objects: 100% (214/214), done.[K
+remote: Compressing objects:   0% (1/178)   [Kremote: Compressing objects:   1% (2/178)   [Kremote: Compressing objects:   2% (4/178)   [Kremote: Compressing objects:   3% (6/178)   [Kremote: Compressing objects:   4% (8/178)   [Kremote: Compressing objects:   5% (9/178)   [Kremote: Compressing objects:   6% (11/178)   [Kremote: Compressing objects:   7% (13/178)   [Kremote: Compressing objects:   8% (15/178)   [Kremote: Compressing objects:   9% (17/178)   [Kremote: Compressing objects:  10% (18/178)   [Kremote: Compressing objects:  11% (20/178)   [Kremote: Compressing objects:  12% (22/178)   [Kremote: Compressing objects:  13% (24/178)   [Kremote: Compressing objects:  14% (25/178)   [Kremote: Compressing objects:  15% (27/178)   [Kremote: Compressing objects:  16% (29/178)   [Kremote: Compressing objects:  17% (31/178)   [Kremote: Compressing objects:  18% (33/178)   [Kremote: Compressing objects:  19% (34/178)   [Kremote: Compressing objects:  20% (36/178)   [Kremote: Compressing objects:  21% (38/178)   [Kremote: Compressing objects:  22% (40/178)   [Kremote: Compressing objects:  23% (41/178)   [Kremote: Compressing objects:  24% (43/178)   [Kremote: Compressing objects:  25% (45/178)   [Kremote: Compressing objects:  26% (47/178)   [Kremote: Compressing objects:  27% (49/178)   [Kremote: Compressing objects:  28% (50/178)   [Kremote: Compressing objects:  29% (52/178)   [Kremote: Compressing objects:  30% (54/178)   [Kremote: Compressing objects:  31% (56/178)   [Kremote: Compressing objects:  32% (57/178)   [Kremote: Compressing objects:  33% (59/178)   [Kremote: Compressing objects:  34% (61/178)   [Kremote: Compressing objects:  35% (63/178)   [Kremote: Compressing objects:  36% (65/178)   [Kremote: Compressing objects:  37% (66/178)   [Kremote: Compressing objects:  38% (68/178)   [Kremote: Compressing objects:  39% (70/178)   [Kremote: Compressing objects:  40% (72/178)   [Kremote: Compressing objects:  41% (73/178)   [Kremote: Compressing objects:  42% (75/178)   [Kremote: Compressing objects:  43% (77/178)   [Kremote: Compressing objects:  44% (79/178)   [Kremote: Compressing objects:  45% (81/178)   [Kremote: Compressing objects:  46% (82/178)   [Kremote: Compressing objects:  47% (84/178)   [Kremote: Compressing objects:  48% (86/178)   [Kremote: Compressing objects:  49% (88/178)   [Kremote: Compressing objects:  50% (89/178)   [Kremote: Compressing objects:  51% (91/178)   [Kremote: Compressing objects:  52% (93/178)   [Kremote: Compressing objects:  53% (95/178)   [Kremote: Compressing objects:  54% (97/178)   [Kremote: Compressing objects:  55% (98/178)   [Kremote: Compressing objects:  56% (100/178)   [Kremote: Compressing objects:  57% (102/178)   [Kremote: Compressing objects:  58% (104/178)   [Kremote: Compressing objects:  59% (106/178)   [Kremote: Compressing objects:  60% (107/178)   [Kremote: Compressing objects:  61% (109/178)   [Kremote: Compressing objects:  62% (111/178)   [Kremote: Compressing objects:  63% (113/178)   [Kremote: Compressing objects:  64% (114/178)   [Kremote: Compressing objects:  65% (116/178)   [Kremote: Compressing objects:  66% (118/178)   [Kremote: Compressing objects:  67% (120/178)   [Kremote: Compressing objects:  68% (122/178)   [Kremote: Compressing objects:  69% (123/178)   [Kremote: Compressing objects:  70% (125/178)   [Kremote: Compressing objects:  71% (127/178)   [Kremote: Compressing objects:  72% (129/178)   [Kremote: Compressing objects:  73% (130/178)   [Kremote: Compressing objects:  74% (132/178)   [Kremote: Compressing objects:  75% (134/178)   [Kremote: Compressing objects:  76% (136/178)   [Kremote: Compressing objects:  77% (138/178)   [Kremote: Compressing objects:  78% (139/178)   [Kremote: Compressing objects:  79% (141/178)   [Kremote: Compressing objects:  80% (143/178)   [Kremote: Compressing objects:  81% (145/178)   [Kremote: Compressing objects:  82% (146/178)   [Kremote: Compressing objects:  83% (148/178)   [Kremote: Compressing objects:  84% (150/178)   [Kremote: Compressing objects:  85% (152/178)   [Kremote: Compressing objects:  86% (154/178)   [Kremote: Compressing objects:  87% (155/178)   [Kremote: Compressing objects:  88% (157/178)   [Kremote: Compressing objects:  89% (159/178)   [Kremote: Compressing objects:  90% (161/178)   [Kremote: Compressing objects:  91% (162/178)   [Kremote: Compressing objects:  92% (164/178)   [Kremote: Compressing objects:  93% (166/178)   [Kremote: Compressing objects:  94% (168/178)   [Kremote: Compressing objects:  95% (170/178)   [Kremote: Compressing objects:  96% (171/178)   [Kremote: Compressing objects:  97% (173/178)   [Kremote: Compressing objects:  98% (175/178)   [Kremote: Compressing objects:  99% (177/178)   [Kremote: Compressing objects: 100% (178/178)   [Kremote: Compressing objects: 100% (178/178), done.[K
+Receiving objects:   0% (1/189)   Receiving objects:   1% (2/189)   Receiving objects:   2% (4/189)   Receiving objects:   3% (6/189)   Receiving objects:   4% (8/189)   Receiving objects:   5% (10/189)   Receiving objects:   6% (12/189)   Receiving objects:   7% (14/189)   Receiving objects:   8% (16/189)   Receiving objects:   9% (18/189)   Receiving objects:  10% (19/189)   Receiving objects:  11% (21/189)   Receiving objects:  12% (23/189)   Receiving objects:  13% (25/189)   Receiving objects:  14% (27/189)   Receiving objects:  15% (29/189)   Receiving objects:  16% (31/189)   Receiving objects:  17% (33/189)   Receiving objects:  18% (35/189)   Receiving objects:  19% (36/189)   Receiving objects:  20% (38/189)   Receiving objects:  21% (40/189)   Receiving objects:  22% (42/189)   Receiving objects:  23% (44/189)   Receiving objects:  24% (46/189)   Receiving objects:  25% (48/189)   Receiving objects:  26% (50/189)   Receiving objects:  27% (52/189)   Receiving objects:  28% (53/189)   Receiving objects:  29% (55/189)   Receiving objects:  30% (57/189)   Receiving objects:  31% (59/189)   Receiving objects:  32% (61/189)   Receiving objects:  33% (63/189)   Receiving objects:  34% (65/189)   Receiving objects:  35% (67/189)   Receiving objects:  36% (69/189)   Receiving objects:  37% (70/189)   Receiving objects:  38% (72/189)   Receiving objects:  39% (74/189)   Receiving objects:  40% (76/189)   Receiving objects:  41% (78/189)   Receiving objects:  42% (80/189)   Receiving objects:  43% (82/189)   Receiving objects:  44% (84/189)   Receiving objects:  45% (86/189)   Receiving objects:  46% (87/189)   Receiving objects:  47% (89/189)   Receiving objects:  48% (91/189)   Receiving objects:  49% (93/189)   Receiving objects:  50% (95/189)   Receiving objects:  51% (97/189)   Receiving objects:  52% (99/189)   Receiving objects:  53% (101/189)   Receiving objects:  54% (103/189)   Receiving objects:  55% (104/189)   Receiving objects:  56% (106/189)   Receiving objects:  57% (108/189)   Receiving objects:  58% (110/189)   Receiving objects:  59% (112/189)   Receiving objects:  60% (114/189)   Receiving objects:  61% (116/189)   Receiving objects:  62% (118/189)   Receiving objects:  63% (120/189)   Receiving objects:  64% (121/189)   Receiving objects:  65% (123/189)   Receiving objects:  66% (125/189)   Receiving objects:  67% (127/189)   Receiving objects:  68% (129/189)   Receiving objects:  69% (131/189)   Receiving objects:  70% (133/189)   Receiving objects:  71% (135/189)   Receiving objects:  72% (137/189)   Receiving objects:  73% (138/189)   Receiving objects:  74% (140/189)   Receiving objects:  75% (142/189)   Receiving objects:  76% (144/189)   Receiving objects:  77% (146/189)   Receiving objects:  78% (148/189)   Receiving objects:  79% (150/189)   Receiving objects:  80% (152/189)   Receiving objects:  81% (154/189)   Receiving objects:  82% (155/189)   Receiving objects:  83% (157/189)   Receiving objects:  84% (159/189)   Receiving objects:  85% (161/189)   Receiving objects:  86% (163/189)   Receiving objects:  87% (165/189)   Receiving objects:  88% (167/189)   Receiving objects:  89% (169/189)   remote: Total 189 (delta 79), reused 0 (delta 0)[K
+Receiving objects:  90% (171/189)   Receiving objects:  91% (172/189)   Receiving objects:  92% (174/189)   Receiving objects:  93% (176/189)   Receiving objects:  94% (178/189)   Receiving objects:  95% (180/189)   Receiving objects:  96% (182/189)   Receiving objects:  97% (184/189)   Receiving objects:  98% (186/189)   Receiving objects:  99% (188/189)   Receiving objects: 100% (189/189)   Receiving objects: 100% (189/189), 399.83 KiB | 4.49 MiB/s, done.
+Resolving deltas:   0% (0/79)   Resolving deltas:   1% (1/79)   Resolving deltas:   2% (2/79)   Resolving deltas:   3% (3/79)   Resolving deltas:   5% (4/79)   Resolving deltas:   6% (5/79)   Resolving deltas:   7% (6/79)   Resolving deltas:   8% (7/79)   Resolving deltas:  10% (8/79)   Resolving deltas:  11% (9/79)   Resolving deltas:  13% (11/79)   Resolving deltas:  15% (12/79)   Resolving deltas:  18% (15/79)   Resolving deltas:  21% (17/79)   Resolving deltas:  22% (18/79)   Resolving deltas:  26% (21/79)   Resolving deltas:  27% (22/79)   Resolving deltas:  29% (23/79)   Resolving deltas:  30% (24/79)   Resolving deltas:  31% (25/79)   Resolving deltas:  32% (26/79)   Resolving deltas:  45% (36/79)   Resolving deltas:  51% (41/79)   Resolving deltas:  58% (46/79)   Resolving deltas:  60% (48/79)   Resolving deltas:  63% (50/79)   Resolving deltas:  65% (52/79)   Resolving deltas:  67% (53/79)   Resolving deltas:  68% (54/79)   Resolving deltas:  69% (55/79)   Resolving deltas:  70% (56/79)   Resolving deltas:  75% (60/79)   Resolving deltas:  83% (66/79)   Resolving deltas:  88% (70/79)   Resolving deltas:  89% (71/79)   Resolving deltas:  91% (72/79)   Resolving deltas:  92% (73/79)   Resolving deltas:  98% (78/79)   Resolving deltas: 100% (79/79)   Resolving deltas: 100% (79/79), completed with 17 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   5dd8253..6e52b22  master     -> origin/master
+Updating 5dd8253..6e52b22
+Fast-forward
+ announce.html                                      |  16 [32m+[m[31m-[m
+ announce.umt                                       |  24 [32m++[m
+ exercises/questions/src/cpp/arith.js               | 124 [32m++++++[m
+ exercises/questions/src/cpp/bitwise-operators.js   |  70 [32m++++[m
+ .../src/cpp/code/x-ref-ptr-const-errors/.gitignore |   2 [32m+[m
+ .../src/cpp/code/x-ref-ptr-const-errors/Makefile   |  16 [32m+[m
+ .../code/x-ref-ptr-const-errors/const-ptr-inc.cc   |  11 [32m+[m
+ .../src/cpp/code/x-ref-ptr-const-errors/ok-1.cc    |   9 [32m+[m
+ .../src/cpp/code/x-ref-ptr-const-errors/ok-2.cc    |   9 [32m+[m
+ .../x-ref-ptr-const-errors/ptr-to-non-const.cc     |   9 [32m+[m
+ .../cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc |   9 [32m+[m
+ .../code/x-ref-ptr-const-errors/ref-to-literal.cc  |   9 [32m+[m
+ .../x-ref-ptr-const-errors/ref-to-non-const.cc     |  10 [32m+[m
+ .../cpp/code/x-ref-ptr-const-errors/uninit-ref.cc  |  11 [32m+[m
+ exercises/questions/src/cpp/int-literals.js        |  85 [32m++++[m
+ exercises/questions/src/cpp/meta.js                |  12 [32m+[m
+ exercises/questions/src/cpp/ptr-arrays.js          |  91 [32m++++[m
+ .../questions/src/cpp/ref-ptr-const-errors.js      | 457 [32m+++++++++++++++++++++[m
+ exercises/questions/src/meta.js                    |   6 [32m+[m[31m-[m
+ exercises/questions/src/tools/makefiles.js         | 208 [32m++++++++++[m
+ exercises/questions/src/tools/meta.js              |   8 [32m+[m
+ index.html                                         |  25 [32m+[m[31m-[m
+ index.umt                                          |  36 [32m+[m[31m-[m
+ labs/index.html                                    |   2 [32m+[m
+ labs/index.umt                                     |   6 [32m+[m[31m-[m
+ labs/lab3/exercises/1-greet/.gitignore             |   1 [32m+[m
+ labs/lab3/exercises/1-greet/README                 |   1 [32m+[m
+ labs/lab3/exercises/1-greet/greet.cc               |  35 [32m++[m
+ labs/lab3/exercises/2-greet/.gitignore             |   1 [32m+[m
+ labs/lab3/exercises/2-greet/README                 |   2 [32m+[m
+ labs/lab3/exercises/2-greet/greet.cc               |  28 [32m++[m
+ labs/lab3/exercises/3-greet/.gitignore             |   1 [32m+[m
+ labs/lab3/exercises/3-greet/README                 |   2 [32m+[m
+ labs/lab3/exercises/3-greet/greet.cc               |  25 [32m++[m
+ labs/lab3/exercises/4-sortnums/.gitignore          |   1 [32m+[m
+ labs/lab3/exercises/4-sortnums/nums1.dat           |   1 [32m+[m
+ labs/lab3/exercises/4-sortnums/nums2.dat           |   3 [32m+[m
+ labs/lab3/exercises/4-sortnums/sortnums.cc         |  41 [32m++[m
+ labs/lab3/exercises/5-numpaths/.gitignore          |   1 [32m+[m
+ labs/lab3/exercises/5-numpaths/numpaths.cc         |  69 [32m++++[m
+ labs/lab3/exercises/Makefile                       |  15 [32m+[m
+ labs/lab3/exercises/data/.gitignore                |   1 [32m+[m
+ labs/lab3/exercises/data/1.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/10.dat                    | 100 [32m+++++[m
+ labs/lab3/exercises/data/2.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/3.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/4.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/5.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/6.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/7.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/8.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/9.dat                     | 100 [32m+++++[m
+ labs/lab3/exercises/data/gen-nums.cc               |  31 [32m++[m
+ labs/lab3/lab3.html                                | 248 [32m+++++++++++[m
+ labs/lab3/lab3.pdf                                 | Bin [31m0[m -> [32m101789[m bytes
+ labs/lab3/lab3.umt                                 | 349 [32m++++++++++++++++[m
+ labs/lab3/lab3/hl-fine_blue.css                    |  19 [32m+[m
+ labs/lab3/lab3/hl-fine_blue.sty                    |  19 [32m+[m
+ projects/index.html                                |   4 [32m+[m[31m-[m
+ projects/index.umt                                 |   4 [32m+[m[31m-[m
+ projects/prj1/prj1.html                            | 232 [32m+++++++++++[m
+ projects/prj1/prj1.pdf                             | Bin [31m0[m -> [32m91217[m bytes
+ projects/prj1/prj1.umt                             | 336 [32m+++++++++++++++[m
+ projects/prj1/prj1/hl-fine_blue.css                |  19 [32m+[m
+ projects/prj1/prj1/hl-fine_blue.sty                |  19 [32m+[m
+ slides/c++-intro/c++-intro.html                    | 238 [32m++++++++++[m[31m-[m
+ slides/c++-intro/c++-intro.pdf                     | Bin [31m201292[m -> [32m251973[m bytes
+ slides/c++-intro/c++-intro.umt                     | 262 [32m++++++++++[m[31m--[m
+ slides/c++-intro/code/.gitignore                   |   5 [32m+[m[31m-[m
+ slides/c++-intro/code/autogen-fns1.cc              |  20 [32m+[m
+ slides/c++-intro/code/autogen-fns2.cc              |  41 [32m++[m
+ slides/c++-intro/code/exercises/.gitignore         |   3 [32m+[m
+ slides/c++-intro/code/exercises/autogen-fns.LOG    |  10 [32m+[m
+ slides/c++-intro/code/exercises/autogen-fns.cc     |  18 [32m+[m
+ slides/c++-intro/code/exercises/call-params.LOG    |   1 [32m+[m
+ slides/c++-intro/code/exercises/call-params.cc     |  14 [32m+[m
+ slides/c++-intro/code/exercises/constness.LOG      |  14 [32m+[m
+ slides/c++-intro/code/exercises/constness.cc       |   7 [32m+[m
+ slides/c++-intro/code/exercises/ref-ptrs.LOG       |   5 [32m+[m
+ slides/c++-intro/code/exercises/ref-ptrs.cc        |  16 [32m+[m
+ slides/c++-intro/code/ptr.cc                       |  38 [32m++[m
+ slides/c++-intro/code/smart-ptr.cc                 |  64 [32m+++[m
+ slides/c++-intro/code/struct-point.cc              |   2 [32m+[m[31m-[m
+ slides/c++-intro/code/vec1.cc                      |  40 [31m--[m
+ slides/collections1/code/.gitignore                |   1 [32m+[m
+ slides/collections1/code/Makefile                  |  15 [32m+[m
+ slides/collections1/code/alist.cc                  |  99 [32m+++++[m
+ slides/collections1/code/list.hh                   |  57 [32m+++[m
+ slides/collections1/collections1.html              | 126 [32m++++++[m
+ slides/collections1/collections1.pdf               | Bin [31m0[m -> [32m97820[m bytes
+ slides/collections1/collections1.umt               | 134 [32m++++++[m
+ slides/collections1/collections1/hl-fine_blue.css  |  19 [32m+[m
+ slides/collections1/collections1/hl-fine_blue.sty  |  19 [32m+[m
+ slides/collections1/figs/alist-insert.png          | Bin [31m0[m -> [32m22441[m bytes
+ slides/index.html                                  |   3 [32m+[m
+ slides/index.umt                                   |   1 [32m+[m
+ 96 files changed, 4933 insertions(+), 112 deletions(-)
+ create mode 100644 exercises/questions/src/cpp/arith.js
+ create mode 100644 exercises/questions/src/cpp/bitwise-operators.js
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/.gitignore
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/Makefile
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+ create mode 100644 exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+ create mode 100644 exercises/questions/src/cpp/int-literals.js
+ create mode 100644 exercises/questions/src/cpp/meta.js
+ create mode 100644 exercises/questions/src/cpp/ptr-arrays.js
+ create mode 100644 exercises/questions/src/cpp/ref-ptr-const-errors.js
+ create mode 100644 exercises/questions/src/tools/makefiles.js
+ create mode 100644 exercises/questions/src/tools/meta.js
+ create mode 100644 labs/lab3/exercises/1-greet/.gitignore
+ create mode 100644 labs/lab3/exercises/1-greet/README
+ create mode 100644 labs/lab3/exercises/1-greet/greet.cc
+ create mode 100644 labs/lab3/exercises/2-greet/.gitignore
+ create mode 100644 labs/lab3/exercises/2-greet/README
+ create mode 100644 labs/lab3/exercises/2-greet/greet.cc
+ create mode 100644 labs/lab3/exercises/3-greet/.gitignore
+ create mode 100644 labs/lab3/exercises/3-greet/README
+ create mode 100644 labs/lab3/exercises/3-greet/greet.cc
+ create mode 100644 labs/lab3/exercises/4-sortnums/.gitignore
+ create mode 100644 labs/lab3/exercises/4-sortnums/nums1.dat
+ create mode 100644 labs/lab3/exercises/4-sortnums/nums2.dat
+ create mode 100644 labs/lab3/exercises/4-sortnums/sortnums.cc
+ create mode 100644 labs/lab3/exercises/5-numpaths/.gitignore
+ create mode 100644 labs/lab3/exercises/5-numpaths/numpaths.cc
+ create mode 100644 labs/lab3/exercises/Makefile
+ create mode 100644 labs/lab3/exercises/data/.gitignore
+ create mode 100644 labs/lab3/exercises/data/1.dat
+ create mode 100644 labs/lab3/exercises/data/10.dat
+ create mode 100644 labs/lab3/exercises/data/2.dat
+ create mode 100644 labs/lab3/exercises/data/3.dat
+ create mode 100644 labs/lab3/exercises/data/4.dat
+ create mode 100644 labs/lab3/exercises/data/5.dat
+ create mode 100644 labs/lab3/exercises/data/6.dat
+ create mode 100644 labs/lab3/exercises/data/7.dat
+ create mode 100644 labs/lab3/exercises/data/8.dat
+ create mode 100644 labs/lab3/exercises/data/9.dat
+ create mode 100644 labs/lab3/exercises/data/gen-nums.cc
+ create mode 100644 labs/lab3/lab3.html
+ create mode 100644 labs/lab3/lab3.pdf
+ create mode 100644 labs/lab3/lab3.umt
+ create mode 100644 labs/lab3/lab3/hl-fine_blue.css
+ create mode 100644 labs/lab3/lab3/hl-fine_blue.sty
+ create mode 100644 projects/prj1/prj1.html
+ create mode 100644 projects/prj1/prj1.pdf
+ create mode 100644 projects/prj1/prj1.umt
+ create mode 100644 projects/prj1/prj1/hl-fine_blue.css
+ create mode 100644 projects/prj1/prj1/hl-fine_blue.sty
+ create mode 100644 slides/c++-intro/code/autogen-fns1.cc
+ create mode 100644 slides/c++-intro/code/autogen-fns2.cc
+ create mode 100644 slides/c++-intro/code/exercises/.gitignore
+ create mode 100644 slides/c++-intro/code/exercises/autogen-fns.LOG
+ create mode 100644 slides/c++-intro/code/exercises/autogen-fns.cc
+ create mode 100644 slides/c++-intro/code/exercises/call-params.LOG
+ create mode 100644 slides/c++-intro/code/exercises/call-params.cc
+ create mode 100644 slides/c++-intro/code/exercises/constness.LOG
+ create mode 100644 slides/c++-intro/code/exercises/constness.cc
+ create mode 100644 slides/c++-intro/code/exercises/ref-ptrs.LOG
+ create mode 100644 slides/c++-intro/code/exercises/ref-ptrs.cc
+ create mode 100644 slides/c++-intro/code/ptr.cc
+ create mode 100644 slides/c++-intro/code/smart-ptr.cc
+ delete mode 100644 slides/c++-intro/code/vec1.cc
+ create mode 100644 slides/collections1/code/.gitignore
+ create mode 100644 slides/collections1/code/Makefile
+ create mode 100644 slides/collections1/code/alist.cc
+ create mode 100644 slides/collections1/code/list.hh
+ create mode 100644 slides/collections1/collections1.html
+ create mode 100644 slides/collections1/collections1.pdf
+ create mode 100644 slides/collections1/collections1.umt
+ create mode 100644 slides/collections1/collections1/hl-fine_blue.css
+ create mode 100644 slides/collections1/collections1/hl-fine_blue.sty
+ create mode 100644 slides/collections1/figs/alist-insert.png
+rgeary1@g7-35:~/cs240$ cd ~/i240a
+rgeary1@g7-35:~/i240a$ ls
+README.md  submit
+rgeary1@g7-35:~/i240a$ cd submit
+rgeary1@g7-35:~/i240a/submit$ ls
+lab0  lab1  lab2  lab3	prj1-sol
+rgeary1@g7-35:~/i240a/submit$ cd lab3
+rgeary1@g7-35:~/i240a/submit/lab3$ ls
+lab3.LOG
+rgeary1@g7-35:~/i240a/submit/lab3$ cp -r ~/cs240/labs/lab3/exercises .
+rgeary1@g7-35:~/i240a/submit/lab3$ ls
+exercises  lab3.LOG
+rgeary1@g7-35:~/i240a/submit/lab3$ cd exercises
+rgeary1@g7-35:~/i240a/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+rgeary1@g7-35:~/i240a/submit/lab3/exercises$ vim .gitignore
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H".gitignore" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll]2;.gitignore (~/projects/i240a/submit/lab3/exercises) - VIM]1;.gitignore[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll".gitignore" [New File][1;1H[?25h[?25l[24;53Hd[1;1H[?25h[?25l[24;54Ha[1;1H[?25h[?25l[24;55Ht[1;1H[24;53H   [1;1H[?25h[?25l[24;53Ha[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;14H[K[24;63H0,1[11CAll[1;1H[?25h[?25li[24;63H1,2]2;.gitignore + (~/projects/i240a/submit/lab3/exercises) - VIM]1;.gitignore[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25ld[24;65H2[1;2H[?25h[?25la[24;65H3[1;3H[?25h[?25lt[24;65H4[1;4H[?25h[?25la[24;65H5[1;5H[?25h[24;1H[K[1;4H[?25l[24;53H^[[1;4H[24;53H  [1;5H[24;63H1,4[11CAll[1;4H[?25h[?25l[24;53H;[1;4H[24;53H [1;4H[?25h[?25l[24;53H~@k[1;4H[24;53H   [1;4H[?25h[?25l[24;53H:[1;4H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l".gitignore" [New] 1L, 5C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@g7-35:~/i240a/submit/lab3/exercises$ cd greet[K[K[K[K[K1`[K-greet/
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ ls
+greet.cc  README
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ ls -l
+total 8
+-rw-r--r-- 1 rgeary1 rgeary1 717 Feb 13 10:04 greet.cc
+-rw-r--r-- 1 rgeary1 rgeary1  54 Feb 13 10:04 README
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ vim re[K[KREADME 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"README" 1L, 54C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HPrint out a line greeting each command-line argument.
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;README (~/projects/i240a/submit/lab3/exercises/1-greet) - VIM]1;README[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1HPrint out a line greeting each command-line argument.
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"README" 1L, 54C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"README" 1L, 54C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ make -f[K f[K[Kf .../Makefile
+make: .../Makefile: No such file or directory
+make: *** No rule to make target '.../Makefile'.  Stop.
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ make -f .../Makefile[1P/Makefile
+g++ -g -Wall -std=c++17    greet.cc   -o greet
+cat </dev/null >.gitignore
+for t in greet; do echo $t >>.gitignore; done
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ ls
+greet  greet.cc  README
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ ./greet
+usage: ./greet NAME...
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ ./greet bart Lisa
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ cd[K[Kvim greet.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"greet.cc" 35L, 717C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<iostream>[m
+[35m#include [m[31m<cstdlib>[m
+[35m#include [m[31m<cstring>[m
+
+[35m#define GREET [m[31m"hello"[m
+
+
+[34m//Turn off compiler warnings about dumb bug in greetMsg()[m
+[35m#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored [m[31m"-Wreturn-local-addr"[m
+
+[32mstatic[m [32mconst[m [32mchar[m *
+greetMsg([32mconst[m [32mchar[m *name)
+{
+  [32mconst[m std::[32msize_t[m len = strlen(GREET) + [31m1[m + strlen(name);
+  [32mchar[m msg[len + [31m1[m];
+  strcpy(msg, GREET); strcat(msg, [31m" "[m); strcat(msg, name);
+  [38;5;130mreturn[m msg;
+}
+
+[35m#pragma GCC diagnostic pop  [m
+
+[32mint[m[24;63H1,1[11CTop]2;greet.cc (~/projects/i240a/submit/lab3/exercises/1-greet) - VIM]1;greet.cc[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include [m[95m<iostream>[m
+[38;5;81m#include [m[95m<cstdlib>[m
+[38;5;81m#include [m[95m<cstring>[m
+
+[38;5;81m#define GREET [m[95m"hello"[m
+
+
+[96m//Turn off compiler warnings about dumb bug in greetMsg()[m
+[38;5;81m#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored [m[95m"-Wreturn-local-addr"[m
+
+[38;5;121mstatic[m [38;5;121mconst[m [38;5;121mchar[m *
+greetMsg([38;5;121mconst[m [38;5;121mchar[m *name)
+{
+  [38;5;121mconst[m std::[38;5;121msize_t[m len = strlen(GREET) + [95m1[m + strlen(name);
+  [38;5;121mchar[m msg[len + [95m1[m];
+  strcpy(msg, GREET); strcat(msg, [95m" "[m); strcat(msg, name);
+  [93mreturn[m msg;
+}
+
+[38;5;81m#pragma GCC diagnostic pop  [m
+
+[38;5;121mint[m[24;63H1,1[11CTop"greet.cc" 35L, 717C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"greet.cc" 35L, 717C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@g7-35:~/i240a/submit/lab3/exercises/1-greet$ cd ..
+rgeary1@g7-35:~/i240a/submit/lab3/exercises$ cd 2-greet/
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ ls
+greet.cc  README
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ vim r[KREADME 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"README" 2L, 55C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HPrint out a line greeting each command-line argument.
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;README (~/projects/i240a/submit/lab3/exercises/2-greet) - VIM]1;README[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1HPrint out a line greeting each command-line argument.
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"README" 2L, 55C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hW[?25l[?25hQ[?25l[?25h[?25l[97m[41mE492: Not an editor command: WQ[1;1H[m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;53H;[1;1H[24;53H [1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hW[?25l[?25hQ[?25l[?25h[?25l[97m[41mE492: Not an editor command: WQ[1;1H[m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"README" 2L, 55C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ make
+make: *** No targets specified and no makefile found.  Stop.
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ make -f ../Makefile
+g++ -g -Wall -std=c++17    greet.cc   -o greet
+cat </dev/null >.gitignore
+for t in greet; do echo $t >>.gitignore; done
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ ./ greet [K
+bash: ./: Is a directory
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ ls
+greet  greet.cc  README
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ .'greet
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> .'greet
+
+
+
+
+
+
+[A[A[A[A[A[A[A[C[Cls[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[C[C[C[C.'greet
+
+
+
+
+
+
+[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[1P'greet[C[C/'greet[C[C[C[1P'greet[C[C[C[1Pgreet[C[C.greet[C[C[C/greet
+
+
+
+
+
+
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> .'greet
+
+
+
+
+
+
+
+./greet[A[A[A[A[A[A[A[A[C[Cls[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[K[K[K[K[K[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C./ greet[C[Cmake -f ../Makefile[C[C[C[C[C[C[K[C[Cvim README [C[C[7Pmake -f ../Makefile[C[C[11P./ greet[C[Cls[K
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> egjeohg[K[K[K[K[K[K[Kbash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+rgeary1@g7-35:~/i240a/submit/lab3/exercises/2-greet$ exit
+
+Script done on 2020-02-13 10:15:59-05:00 [COMMAND_EXIT_CODE="2"]
