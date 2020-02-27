@@ -1,0 +1,385 @@
+Script started on 2020-02-27 10:44:47-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="94" LINES="52"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rgeary1@g7-37:~/i240a/submit/lab5$ ls
+exercises  lab5.LOG
+rgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ [Krgeary1@g7-37:~/i240a/submit/lab5$ cd exercises/1-animal/
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ ls -l
+total 8
+-rw-r--r-- 1 rgeary1 rgeary1 608 Feb 27 10:43 animal.hh
+-rw-r--r-- 1 rgeary1 rgeary1 489 Feb 27 10:43 main.cc
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit animal.hh 
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f M[K../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { fido, fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { fido, fluffy [01;31m[K}[m[K;
+                                           [01;31m[K^[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[3Pgedit animal.hh [K[K[K[K[K[K[K[K[K[Kmain.cc 
+
+(gedit:1500600): Gtk-[1;33mWARNING[0m **: [34m10:48:54.895[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:17:[m[K [01;36m[Knote: [m[K‘[01m[Kconst Animal* animals [2][m[K’ previously declared here
+   const Animal *[01;36m[Kanimals[m[K[] = { &fido, &fluffy };
+                 [01;36m[K^~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1500835): Gtk-[1;33mWARNING[0m **: [34m10:49:37.327[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:17:[m[K [01;36m[Knote: [m[K‘[01m[Kconst Animal* animals [2][m[K’ previously declared here
+   const Animal *[01;36m[Kanimals[m[K[] = { &fido, &fluffy };
+                 [01;36m[K^~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1501052): Gtk-[1;33mWARNING[0m **: [34m10:51:37.514[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:11:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   *animals[[01;31m[K][m[K = {
+            [01;31m[K^[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1501154): Gtk-[1;33mWARNING[0m **: [34m10:51:58.911[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { &fido, &fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:45:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { &fido, &fluffy [01;31m[K}[m[K;
+                                             [01;31m[K^[m[K
+[01m[Kmain.cc:10:45:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { &fido, &fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1501246): Gtk-[1;33mWARNING[0m **: [34m10:53:02.884[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile[5Pgedit main.cc 
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[K./main
+bessie says moo
+bossy says moo
+fido says woof
+fluffy says meow
+rufus says woof
+simba says meow
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ ./mainmake -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[5Pgedit main.cc make -f ../Makefile[3Pgedit animal.hh 
+
+(gedit:1501412): Gtk-[1;33mWARNING[0m **: [34m10:53:55.640[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit animal.hh [10P./mainmake -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1501576): Gtk-[1;33mWARNING[0m **: [34m10:55:18.112[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc [2@animal.hh[C[10P./mainmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc [2@animal.hh[C[10P./main
+bessie says moo
+bessie eats grass
+bossy says moo
+bossy eats grass
+fido says woof
+fido eats meat
+fluffy says meow
+fluffy eats fish
+rufus says woof
+rufus eats meat
+simba says meow
+simba eats fish
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ ./mainmake -f ../Makefile[5Pgedit main.cc 
+
+(gedit:1501669): Gtk-[1;33mWARNING[0m **: [34m10:55:55.029[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ gedit main.cc [8P./mainmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ make -f ../Makefile[5Pgedit main.cc [8P./main
+bessie eats grass
+bossy eats grass
+fido eats meat
+fluffy eats fish
+rufus eats meat
+simba eats fish
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/1-animal$ cd ..
+rgeary1@g7-37:~/i240a/submit/lab5/exercises$ cd s[K2-expr/
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ cd 2-expr/..[K./mainmake -f ../Makefile[5Pgedit main.cc make -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./main
+usage: ./main PREFIX_EXPR...
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ main "1 [K[K+ 1 2"
+bash: main: command not found
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ main "+ 1 2"[1@.[1@/
+(1) + (2) = 3
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ls -l
+total 2048
+-rw-r--r-- 1 rgeary1 rgeary1    705 Feb 27 10:43 expr.cc
+-rw-r--r-- 1 rgeary1 rgeary1   3285 Feb 27 10:43 expr.hh
+-rw-r--r-- 1 rgeary1 rgeary1 299864 Feb 27 10:57 expr.o
+-rwxr-xr-x 1 rgeary1 rgeary1 587056 Feb 27 10:57 main
+-rw-r--r-- 1 rgeary1 rgeary1    370 Feb 27 10:43 main.cc
+-rw-r--r-- 1 rgeary1 rgeary1 259488 Feb 27 10:57 main.o
+-rw-r--r-- 1 rgeary1 rgeary1    938 Feb 27 10:43 parse.cc
+-rw-r--r-- 1 rgeary1 rgeary1    211 Feb 27 10:43 parse.hh
+-rw-r--r-- 1 rgeary1 rgeary1 706016 Feb 27 10:57 parse.o
+-rw-r--r-- 1 rgeary1 rgeary1    165 Feb 27 10:43 tostring.cc
+-rw-r--r-- 1 rgeary1 rgeary1    360 Feb 27 10:43 tostring.hh
+-rw-r--r-- 1 rgeary1 rgeary1 201544 Feb 27 10:57 tostring.o
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh
+
+(gedit:1502139): Gtk-[1;33mWARNING[0m **: [34m11:01:19.001[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.hh[K[Kcc
+
+(gedit:1502545): Gtk-[1;33mWARNING[0m **: [34m11:03:14.831[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit expr.cchh[8Pls -lgedit expr.hhcc[Kgedit expr.cchh[8Pls -lgedit expr.hhcc[Kgedit expr.cc[K[K[K[K[K[K[Kmain.cc
+
+(gedit:1504341): Gtk-[1;33mWARNING[0m **: [34m11:19:35.719[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccexpr.cchh[8Pls -l./main "+ 1 2"[2P[C[C[C[C[C[C[C[C[C[C[C[C[6P./mainmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     std::cout << *exprP.[01;31m[KdcCode[m[K() << " = " << exprP->eval() << std::endl;
+                         [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:1504627): Gtk-[1;33mWARNING[0m **: [34m11:21:01.389[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:13:16:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   virtual std::[01;31m[KString[m[K dcCode const = 0;
+                [01;31m[K^~~~~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     std::cout << *exprP.[01;31m[KdcCode[m[K() << " = " << exprP->eval() << std::endl;
+                         [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:1504905): Gtk-[1;33mWARNING[0m **: [34m11:21:35.801[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:13:23:[m[K [01;31m[Kerror: [m[K‘[01m[KdcCode[m[K’ declared as a ‘[01m[Kvirtual[m[K’ field
+   virtual std::string [01;31m[KdcCode[m[K const = 0;
+                       [01;31m[K^~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   virtual std::string [01;31m[KdcCode[m[K const = 0;
+                       [01;31m[K^~~~~~[m[K
+                             [32m[K;[m[K
+[01m[Kexpr.hh:13:36:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   virtual std::string dcCode const [01;31m[K=[m[K 0;
+                                    [01;31m[K^[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     std::cout << *exprP.[01;31m[KdcCode[m[K() << " = " << exprP->eval() << std::endl;
+                         [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:1505785): Gtk-[1;33mWARNING[0m **: [34m11:29:09.662[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     std::cout << *exprP.[01;31m[KdcCode[m[K() << " = " << exprP->eval() << std::endl;
+                         [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:1505846): Gtk-[1;33mWARNING[0m **: [34m11:29:24.857[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:16:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+     std::cout << [01;31m[K*exprP->dcCode()[m[K << " = " << exprP->eval() << std::endl;
+                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:1505905): Gtk-[1;33mWARNING[0m **: [34m11:29:48.721[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+[01m[Kexpr.cc:[m[K In function ‘[01m[Kstd::__cxx11::string binaryExprToDcString(std::__cxx11::string, ExprPtr, ExprPtr)[m[K’:
+[01m[Kexpr.cc:55:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+  s << "(" << *left.[01;31m[KdcCode[m[K() << ") " << " (" << *right.dcCode() << ") " << op;
+                    [01;31m[K^~~~~~[m[K
+[01m[Kexpr.cc:55:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+  s << "(" << *left.dcCode() << ") " << " (" << *right.[01;31m[KdcCode[m[K() << ") " << op;
+                                                       [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: expr.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:1505960): Gtk-[1;33mWARNING[0m **: [34m11:30:15.442[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+[01m[Kexpr.cc:[m[K In function ‘[01m[Kstd::__cxx11::string binaryExprToDcString(std::__cxx11::string, ExprPtr, ExprPtr)[m[K’:
+[01m[Kexpr.cc:55:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+  s << "(" << left.[01;31m[KdcCode[m[K() << ") " << " (" << right.dcCode() << ") " << op;
+                   [01;31m[K^~~~~~[m[K
+[01m[Kexpr.cc:55:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<Expr>[m[K’} has no member named ‘[01m[KdcCode[m[K’
+  s << "(" << left.dcCode() << ") " << " (" << right.[01;31m[KdcCode[m[K() << ") " << op;
+                                                     [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: expr.o] Error 1
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:1506035): Gtk-[1;33mWARNING[0m **: [34m11:30:42.936[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.ccmake -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./ [Kmain "-3 x[K2" "* + 1 2 5"
+(3)  (2) - = 1
+((1)  (2) +)  (5) * = 15
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./main "-3 2" "* + 1 2 5"[12Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:1506721): Gtk-[1;33mWARNING[0m **: [34m11:36:21.264[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.cc./main "-3 2" "* + 1 2 5"
+(3)  (2) - = 1
+((1)  (2) +)  (5) * = 15
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./main "-3 2" "* + 1 2 5"[12Pgedit main.cc./main "-3 2" "* + 1 2 5"[12Pgedit main.ccmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile./main "-3 2" "* + 1 2 5"[12Pgedit main.cc./main "-3 2" "* + 1 2 5"\[K
+32- = 1
+12+5* = 15
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile./main "-3 2" "* + 1 2 5"[12Pgedit main.cc
+
+(gedit:1506847): Gtk-[1;33mWARNING[0m **: [34m11:37:04.820[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.cc[Kgedit main.cc./main "-3 2" "* + 1 2 5"[12Pgedit main.cc./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc./main "-3 2" "* + 1 2 5"
+3 2 - = 1
+1 2 + 5 * = 15
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ ./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:1507350): Gtk-[1;33mWARNING[0m **: [34m11:40:52.051[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ gedit main.cc./main "-3 2" "* + 1 2 5"[6Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pgedit main.cc./main "-3 2" "* + 1 2 5"
+3 2 - p c
+1 2 + 5 * p c
+rgeary1@g7-37:~/i240a/submit/lab5/exercises/2-expr$ exit
+
+Script done on 2020-02-27 11:43:49-05:00 [COMMAND_EXIT_CODE="0"]
