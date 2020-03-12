@@ -1,0 +1,1204 @@
+Script started on 2020-03-12 11:59:18-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="93" LINES="51"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rgeary1@remote01:~/i240a/submit/lab6$ cd ..
+rgeary1@remote01:~/i240a/submit$ cd ~
+rgeary1@remote01:~$ cd cs240
+rgeary1@remote01:~/cs240$ git pull
+/home/rgeary1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 153, done.[K
+remote: Counting objects:   0% (1/153)   [Kremote: Counting objects:   1% (2/153)   [Kremote: Counting objects:   2% (4/153)   [Kremote: Counting objects:   3% (5/153)   [Kremote: Counting objects:   4% (7/153)   [Kremote: Counting objects:   5% (8/153)   [Kremote: Counting objects:   6% (10/153)   [Kremote: Counting objects:   7% (11/153)   [Kremote: Counting objects:   8% (13/153)   [Kremote: Counting objects:   9% (14/153)   [Kremote: Counting objects:  10% (16/153)   [Kremote: Counting objects:  11% (17/153)   [Kremote: Counting objects:  12% (19/153)   [Kremote: Counting objects:  13% (20/153)   [Kremote: Counting objects:  14% (22/153)   [Kremote: Counting objects:  15% (23/153)   [Kremote: Counting objects:  16% (25/153)   [Kremote: Counting objects:  17% (27/153)   [Kremote: Counting objects:  18% (28/153)   [Kremote: Counting objects:  19% (30/153)   [Kremote: Counting objects:  20% (31/153)   [Kremote: Counting objects:  21% (33/153)   [Kremote: Counting objects:  22% (34/153)   [Kremote: Counting objects:  23% (36/153)   [Kremote: Counting objects:  24% (37/153)   [Kremote: Counting objects:  25% (39/153)   [Kremote: Counting objects:  26% (40/153)   [Kremote: Counting objects:  27% (42/153)   [Kremote: Counting objects:  28% (43/153)   [Kremote: Counting objects:  29% (45/153)   [Kremote: Counting objects:  30% (46/153)   [Kremote: Counting objects:  31% (48/153)   [Kremote: Counting objects:  32% (49/153)   [Kremote: Counting objects:  33% (51/153)   [Kremote: Counting objects:  34% (53/153)   [Kremote: Counting objects:  35% (54/153)   [Kremote: Counting objects:  36% (56/153)   [Kremote: Counting objects:  37% (57/153)   [Kremote: Counting objects:  38% (59/153)   [Kremote: Counting objects:  39% (60/153)   [Kremote: Counting objects:  40% (62/153)   [Kremote: Counting objects:  41% (63/153)   [Kremote: Counting objects:  42% (65/153)   [Kremote: Counting objects:  43% (66/153)   [Kremote: Counting objects:  44% (68/153)   [Kremote: Counting objects:  45% (69/153)   [Kremote: Counting objects:  46% (71/153)   [Kremote: Counting objects:  47% (72/153)   [Kremote: Counting objects:  48% (74/153)   [Kremote: Counting objects:  49% (75/153)   [Kremote: Counting objects:  50% (77/153)   [Kremote: Counting objects:  51% (79/153)   [Kremote: Counting objects:  52% (80/153)   [Kremote: Counting objects:  53% (82/153)   [Kremote: Counting objects:  54% (83/153)   [Kremote: Counting objects:  55% (85/153)   [Kremote: Counting objects:  56% (86/153)   [Kremote: Counting objects:  57% (88/153)   [Kremote: Counting objects:  58% (89/153)   [Kremote: Counting objects:  59% (91/153)   [Kremote: Counting objects:  60% (92/153)   [Kremote: Counting objects:  61% (94/153)   [Kremote: Counting objects:  62% (95/153)   [Kremote: Counting objects:  63% (97/153)   [Kremote: Counting objects:  64% (98/153)   [Kremote: Counting objects:  65% (100/153)   [Kremote: Counting objects:  66% (101/153)   [Kremote: Counting objects:  67% (103/153)   [Kremote: Counting objects:  68% (105/153)   [Kremote: Counting objects:  69% (106/153)   [Kremote: Counting objects:  70% (108/153)   [Kremote: Counting objects:  71% (109/153)   [Kremote: Counting objects:  72% (111/153)   [Kremote: Counting objects:  73% (112/153)   [Kremote: Counting objects:  74% (114/153)   [Kremote: Counting objects:  75% (115/153)   [Kremote: Counting objects:  76% (117/153)   [Kremote: Counting objects:  77% (118/153)   [Kremote: Counting objects:  78% (120/153)   [Kremote: Counting objects:  79% (121/153)   [Kremote: Counting objects:  80% (123/153)   [Kremote: Counting objects:  81% (124/153)   [Kremote: Counting objects:  82% (126/153)   [Kremote: Counting objects:  83% (127/153)   [Kremote: Counting objects:  84% (129/153)   [Kremote: Counting objects:  85% (131/153)   [Kremote: Counting objects:  86% (132/153)   [Kremote: Counting objects:  87% (134/153)   [Kremote: Counting objects:  88% (135/153)   [Kremote: Counting objects:  89% (137/153)   [Kremote: Counting objects:  90% (138/153)   [Kremote: Counting objects:  91% (140/153)   [Kremote: Counting objects:  92% (141/153)   [Kremote: Counting objects:  93% (143/153)   [Kremote: Counting objects:  94% (144/153)   [Kremote: Counting objects:  95% (146/153)   [Kremote: Counting objects:  96% (147/153)   [Kremote: Counting objects:  97% (149/153)   [Kremote: Counting objects:  98% (150/153)   [Kremote: Counting objects:  99% (152/153)   [Kremote: Counting objects: 100% (153/153)   [Kremote: Counting objects: 100% (153/153), done.[K
+remote: Compressing objects:   0% (1/113)   [Kremote: Compressing objects:   1% (2/113)   [Kremote: Compressing objects:   2% (3/113)   [Kremote: Compressing objects:   3% (4/113)   [Kremote: Compressing objects:   4% (5/113)   [Kremote: Compressing objects:   5% (6/113)   [Kremote: Compressing objects:   6% (7/113)   [Kremote: Compressing objects:   7% (8/113)   [Kremote: Compressing objects:   8% (10/113)   [Kremote: Compressing objects:   9% (11/113)   [Kremote: Compressing objects:  10% (12/113)   [Kremote: Compressing objects:  11% (13/113)   [Kremote: Compressing objects:  12% (14/113)   [Kremote: Compressing objects:  13% (15/113)   [Kremote: Compressing objects:  14% (16/113)   [Kremote: Compressing objects:  15% (17/113)   [Kremote: Compressing objects:  16% (19/113)   [Kremote: Compressing objects:  17% (20/113)   [Kremote: Compressing objects:  18% (21/113)   [Kremote: Compressing objects:  19% (22/113)   [Kremote: Compressing objects:  20% (23/113)   [Kremote: Compressing objects:  21% (24/113)   [Kremote: Compressing objects:  22% (25/113)   [Kremote: Compressing objects:  23% (26/113)   [Kremote: Compressing objects:  24% (28/113)   [Kremote: Compressing objects:  25% (29/113)   [Kremote: Compressing objects:  26% (30/113)   [Kremote: Compressing objects:  27% (31/113)   [Kremote: Compressing objects:  28% (32/113)   [Kremote: Compressing objects:  29% (33/113)   [Kremote: Compressing objects:  30% (34/113)   [Kremote: Compressing objects:  31% (36/113)   [Kremote: Compressing objects:  32% (37/113)   [Kremote: Compressing objects:  33% (38/113)   [Kremote: Compressing objects:  34% (39/113)   [Kremote: Compressing objects:  35% (40/113)   [Kremote: Compressing objects:  36% (41/113)   [Kremote: Compressing objects:  37% (42/113)   [Kremote: Compressing objects:  38% (43/113)   [Kremote: Compressing objects:  39% (45/113)   [Kremote: Compressing objects:  40% (46/113)   [Kremote: Compressing objects:  41% (47/113)   [Kremote: Compressing objects:  42% (48/113)   [Kremote: Compressing objects:  43% (49/113)   [Kremote: Compressing objects:  44% (50/113)   [Kremote: Compressing objects:  45% (51/113)   [Kremote: Compressing objects:  46% (52/113)   [Kremote: Compressing objects:  47% (54/113)   [Kremote: Compressing objects:  48% (55/113)   [Kremote: Compressing objects:  49% (56/113)   [Kremote: Compressing objects:  50% (57/113)   [Kremote: Compressing objects:  51% (58/113)   [Kremote: Compressing objects:  52% (59/113)   [Kremote: Compressing objects:  53% (60/113)   [Kremote: Compressing objects:  54% (62/113)   [Kremote: Compressing objects:  55% (63/113)   [Kremote: Compressing objects:  56% (64/113)   [Kremote: Compressing objects:  57% (65/113)   [Kremote: Compressing objects:  58% (66/113)   [Kremote: Compressing objects:  59% (67/113)   [Kremote: Compressing objects:  60% (68/113)   [Kremote: Compressing objects:  61% (69/113)   [Kremote: Compressing objects:  62% (71/113)   [Kremote: Compressing objects:  63% (72/113)   [Kremote: Compressing objects:  64% (73/113)   [Kremote: Compressing objects:  65% (74/113)   [Kremote: Compressing objects:  66% (75/113)   [Kremote: Compressing objects:  67% (76/113)   [Kremote: Compressing objects:  68% (77/113)   [Kremote: Compressing objects:  69% (78/113)   [Kremote: Compressing objects:  70% (80/113)   [Kremote: Compressing objects:  71% (81/113)   [Kremote: Compressing objects:  72% (82/113)   [Kremote: Compressing objects:  73% (83/113)   [Kremote: Compressing objects:  74% (84/113)   [Kremote: Compressing objects:  75% (85/113)   [Kremote: Compressing objects:  76% (86/113)   [Kremote: Compressing objects:  77% (88/113)   [Kremote: Compressing objects:  78% (89/113)   [Kremote: Compressing objects:  79% (90/113)   [Kremote: Compressing objects:  80% (91/113)   [Kremote: Compressing objects:  81% (92/113)   [Kremote: Compressing objects:  82% (93/113)   [Kremote: Compressing objects:  83% (94/113)   [Kremote: Compressing objects:  84% (95/113)   [Kremote: Compressing objects:  85% (97/113)   [Kremote: Compressing objects:  86% (98/113)   [Kremote: Compressing objects:  87% (99/113)   [Kremote: Compressing objects:  88% (100/113)   [Kremote: Compressing objects:  89% (101/113)   [Kremote: Compressing objects:  90% (102/113)   [Kremote: Compressing objects:  91% (103/113)   [Kremote: Compressing objects:  92% (104/113)   [Kremote: Compressing objects:  93% (106/113)   [Kremote: Compressing objects:  94% (107/113)   [Kremote: Compressing objects:  95% (108/113)   [Kremote: Compressing objects:  96% (109/113)   [Kremote: Compressing objects:  97% (110/113)   [Kremote: Compressing objects:  98% (111/113)   [Kremote: Compressing objects:  99% (112/113)   [Kremote: Compressing objects: 100% (113/113)   [Kremote: Compressing objects: 100% (113/113), done.[K
+Receiving objects:   0% (1/116)   Receiving objects:   1% (2/116)   Receiving objects:   2% (3/116)   Receiving objects:   3% (4/116)   Receiving objects:   4% (5/116)   Receiving objects:   5% (6/116)   Receiving objects:   6% (7/116)   Receiving objects:   7% (9/116)   Receiving objects:   8% (10/116)   Receiving objects:   9% (11/116)   Receiving objects:  10% (12/116)   Receiving objects:  11% (13/116)   Receiving objects:  12% (14/116)   Receiving objects:  13% (16/116)   Receiving objects:  14% (17/116)   Receiving objects:  15% (18/116)   Receiving objects:  16% (19/116)   Receiving objects:  17% (20/116)   Receiving objects:  18% (21/116)   Receiving objects:  19% (23/116)   Receiving objects:  20% (24/116)   Receiving objects:  21% (25/116)   Receiving objects:  22% (26/116)   Receiving objects:  23% (27/116)   Receiving objects:  24% (28/116)   Receiving objects:  25% (29/116)   Receiving objects:  26% (31/116)   Receiving objects:  27% (32/116)   Receiving objects:  28% (33/116)   Receiving objects:  29% (34/116)   Receiving objects:  30% (35/116)   Receiving objects:  31% (36/116)   Receiving objects:  32% (38/116)   Receiving objects:  33% (39/116)   Receiving objects:  34% (40/116)   Receiving objects:  35% (41/116)   Receiving objects:  36% (42/116)   Receiving objects:  37% (43/116)   Receiving objects:  38% (45/116)   Receiving objects:  39% (46/116)   Receiving objects:  40% (47/116)   Receiving objects:  41% (48/116)   Receiving objects:  42% (49/116)   Receiving objects:  43% (50/116)   Receiving objects:  44% (52/116)   Receiving objects:  45% (53/116)   Receiving objects:  46% (54/116)   Receiving objects:  47% (55/116)   Receiving objects:  48% (56/116)   Receiving objects:  49% (57/116)   Receiving objects:  50% (58/116)   Receiving objects:  51% (60/116)   Receiving objects:  52% (61/116)   Receiving objects:  53% (62/116)   Receiving objects:  54% (63/116)   Receiving objects:  55% (64/116)   Receiving objects:  56% (65/116)   Receiving objects:  57% (67/116)   Receiving objects:  58% (68/116)   Receiving objects:  59% (69/116)   Receiving objects:  60% (70/116)   Receiving objects:  61% (71/116)   Receiving objects:  62% (72/116)   Receiving objects:  63% (74/116)   Receiving objects:  64% (75/116)   Receiving objects:  65% (76/116)   Receiving objects:  66% (77/116)   Receiving objects:  67% (78/116)   Receiving objects:  68% (79/116)   Receiving objects:  69% (81/116)   Receiving objects:  70% (82/116)   Receiving objects:  71% (83/116)   Receiving objects:  72% (84/116)   Receiving objects:  73% (85/116)   Receiving objects:  74% (86/116)   Receiving objects:  75% (87/116)   Receiving objects:  76% (89/116)   Receiving objects:  77% (90/116)   Receiving objects:  78% (91/116)   Receiving objects:  79% (92/116)   Receiving objects:  80% (93/116)   Receiving objects:  81% (94/116)   Receiving objects:  82% (96/116)   Receiving objects:  83% (97/116)   remote: Total 116 (delta 65), reused 0 (delta 0)[K
+Receiving objects:  84% (98/116)   Receiving objects:  85% (99/116)   Receiving objects:  86% (100/116)   Receiving objects:  87% (101/116)   Receiving objects:  88% (103/116)   Receiving objects:  89% (104/116)   Receiving objects:  90% (105/116)   Receiving objects:  91% (106/116)   Receiving objects:  92% (107/116)   Receiving objects:  93% (108/116)   Receiving objects:  94% (110/116)   Receiving objects:  95% (111/116)   Receiving objects:  96% (112/116)   Receiving objects:  97% (113/116)   Receiving objects:  98% (114/116)   Receiving objects:  99% (115/116)   Receiving objects: 100% (116/116)   Receiving objects: 100% (116/116), 788.98 KiB | 9.39 MiB/s, done.
+Resolving deltas:   0% (0/65)   Resolving deltas:   1% (1/65)   Resolving deltas:  12% (8/65)   Resolving deltas:  13% (9/65)   Resolving deltas:  21% (14/65)   Resolving deltas:  26% (17/65)   Resolving deltas:  27% (18/65)   Resolving deltas:  29% (19/65)   Resolving deltas:  32% (21/65)   Resolving deltas:  40% (26/65)   Resolving deltas:  50% (33/65)   Resolving deltas:  52% (34/65)   Resolving deltas:  53% (35/65)   Resolving deltas:  55% (36/65)   Resolving deltas:  56% (37/65)   Resolving deltas:  58% (38/65)   Resolving deltas:  60% (39/65)   Resolving deltas:  61% (40/65)   Resolving deltas:  63% (41/65)   Resolving deltas:  64% (42/65)   Resolving deltas:  70% (46/65)   Resolving deltas:  76% (50/65)   Resolving deltas:  78% (51/65)   Resolving deltas:  80% (52/65)   Resolving deltas:  81% (53/65)   Resolving deltas:  83% (54/65)   Resolving deltas:  84% (55/65)   Resolving deltas:  90% (59/65)   Resolving deltas:  92% (60/65)   Resolving deltas:  93% (61/65)   Resolving deltas:  95% (62/65)   Resolving deltas:  98% (64/65)   Resolving deltas: 100% (65/65)   Resolving deltas: 100% (65/65), completed with 23 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   84d8b4f..d85f09e  master     -> origin/master
+Updating 84d8b4f..d85f09e
+Fast-forward
+ exams-quizzes/cs240a/index.html                             |   8 [32m+[m
+ exams-quizzes/cs240a/index.umt                              |  10 [32m+[m
+ exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.html     | 157 [32m+++++++++[m
+ exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.pdf      | Bin [31m0[m -> [32m97841[m bytes
+ exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.umt      | 177 [32m+++++++++++[m
+ .../cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css   |  19 [32m++[m
+ .../cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty   |  19 [32m++[m
+ exams-quizzes/cs240a/variant-a/exam1/exam1.html             |  79 [32m+++++[m
+ exams-quizzes/cs240a/variant-a/exam1/exam1.pdf              | Bin [31m0[m -> [32m77896[m bytes
+ exams-quizzes/cs240a/variant-a/exam1/exam1.umt              |  72 [32m+++++[m
+ exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.css |  19 [32m++[m
+ exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.sty |  19 [32m++[m
+ exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.html     | 146 [32m+++++++++[m
+ exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.pdf      | Bin [31m0[m -> [32m97752[m bytes
+ exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.umt      | 175 [32m++++++++++[m
+ .../cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css   |  19 [32m++[m
+ .../cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty   |  19 [32m++[m
+ exams-quizzes/cs240a/variant-b/exam1/exam1.html             |  80 [32m+++++[m
+ exams-quizzes/cs240a/variant-b/exam1/exam1.pdf              | Bin [31m0[m -> [32m87534[m bytes
+ exams-quizzes/cs240a/variant-b/exam1/exam1.umt              |  80 [32m+++++[m
+ exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.css |  19 [32m++[m
+ exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.sty |  19 [32m++[m
+ exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.html     | 154 [32m+++++++++[m
+ exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.pdf      | Bin [31m0[m -> [32m109921[m bytes
+ exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.umt      | 177 [32m+++++++++++[m
+ .../cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css   |  19 [32m++[m
+ .../cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty   |  19 [32m++[m
+ exams-quizzes/cs240b/variant-a/exam1/exam1.html             |  72 [32m+++++[m
+ exams-quizzes/cs240b/variant-a/exam1/exam1.pdf              | Bin [31m0[m -> [32m91812[m bytes
+ exams-quizzes/cs240b/variant-a/exam1/exam1.umt              |  68 [32m++++[m
+ exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.css |  19 [32m++[m
+ exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.sty |  19 [32m++[m
+ exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.html     | 145 [32m+++++++++[m
+ exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.pdf      | Bin [31m0[m -> [32m105222[m bytes
+ exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.umt      | 171 [32m++++++++++[m
+ .../cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css   |  19 [32m++[m
+ .../cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty   |  19 [32m++[m
+ exams-quizzes/cs240b/variant-b/exam1/exam1.html             |  80 [32m+++++[m
+ exams-quizzes/cs240b/variant-b/exam1/exam1.pdf              | Bin [31m0[m -> [32m93674[m bytes
+ exams-quizzes/cs240b/variant-b/exam1/exam1.umt              |  81 [32m+++++[m
+ exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.css |  19 [32m++[m
+ exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.sty |  19 [32m++[m
+ exams-quizzes/exam1-outline/exam1-outline.html              |  39 [32m+++[m
+ exams-quizzes/exam1-outline/exam1-outline.pdf               | Bin [31m0[m -> [32m35562[m bytes
+ exams-quizzes/exam1-outline/exam1-outline.umt               |  24 [32m++[m
+ exams-quizzes/index.html                                    |   3 [32m+[m
+ exams-quizzes/index.umt                                     |   4 [32m+[m
+ exercises/questions/src/meta.js                             |   2 [32m+[m[31m-[m
+ hws/hw2-sol/hw2-sol.html                                    | 243 [32m++++++++++++++[m
+ hws/hw2-sol/hw2-sol.pdf                                     | Bin [31m0[m -> [32m119702[m bytes
+ hws/hw2-sol/hw2-sol.umt                                     | 263 [32m+++++++++++++++[m
+ hws/hw2-sol/hw2-sol/hl-fine_blue.css                        |  19 [32m++[m
+ hws/hw2-sol/hw2-sol/hl-fine_blue.sty                        |  19 [32m++[m
+ hws/hw2-sol/stk-occupied-top.hh                             |  33 [32m++[m
+ hws/index.html                                              |   4 [32m+[m
+ hws/index.umt                                               |   4 [32m+[m[31m-[m
+ index.html                                                  |  39 [32m++[m[31m-[m
+ index.umt                                                   |  24 [32m++[m
+ labs/index.html                                             |   2 [32m+[m
+ labs/index.umt                                              |   8 [32m+[m[31m-[m
+ labs/lab1/lab1.html                                         |  32 [32m+[m[31m-[m
+ labs/lab1/lab1.pdf                                          | Bin [31m145820[m -> [32m145831[m bytes
+ labs/lab1/lab1.umt                                          |  30 [32m+[m[31m-[m
+ labs/lab1/lab1/hl-fine_blue.css                             |   2 [32m+[m[31m-[m
+ labs/lab1/lab1/hl-fine_blue.sty                             |   2 [32m+[m[31m-[m
+ labs/lab6/exercises/4-quoting/'12                           |   0
+ labs/lab6/exercises/4-quoting/**                            |   0
+ labs/lab6/exercises/4-quoting/-l                            |   0
+ "labs/lab6/exercises/4-quoting/1\"2"                        |   0
+ labs/lab6/exercises/4-quoting/1$2                           |   0
+ "labs/lab6/exercises/4-quoting/\\\\ab"                      |   0
+ "labs/lab6/exercises/4-quoting/a\"b"                        |   0
+ labs/lab6/exercises/4-quoting/a$b                           |   0
+ labs/lab6/exercises/4-quoting/a'b                           |   0
+ labs/lab6/lab6.html                                         | 265 [32m++++++++++++++++[m
+ labs/lab6/lab6.pdf                                          | Bin [31m0[m -> [32m105735[m bytes
+ labs/lab6/lab6.umt                                          | 422 [32m+++++++++++++++++++++++++[m
+ labs/lab6/lab6/hl-fine_blue.css                             |  19 [32m++[m
+ labs/lab6/lab6/hl-fine_blue.sty                             |  19 [32m++[m
+ slides/collections1/code/lists/.gitignore                   |   5 [32m+[m
+ slides/collections2/collections2.html                       | 108 [32m+++++[m[31m--[m
+ slides/collections2/collections2.pdf                        | Bin [31m101711[m -> [32m174424[m bytes
+ slides/collections2/collections2.umt                        | 138 [32m+++++++[m[31m-[m
+ slides/collections2/figs/chain-tree.png                     | Bin [31m0[m -> [32m8370[m bytes
+ 84 files changed, 3932 insertions(+), 76 deletions(-)
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/exam1-outline/exam1-outline.html
+ create mode 100644 exams-quizzes/exam1-outline/exam1-outline.pdf
+ create mode 100644 exams-quizzes/exam1-outline/exam1-outline.umt
+ create mode 100644 hws/hw2-sol/hw2-sol.html
+ create mode 100644 hws/hw2-sol/hw2-sol.pdf
+ create mode 100644 hws/hw2-sol/hw2-sol.umt
+ create mode 100644 hws/hw2-sol/hw2-sol/hl-fine_blue.css
+ create mode 100644 hws/hw2-sol/hw2-sol/hl-fine_blue.sty
+ create mode 100644 hws/hw2-sol/stk-occupied-top.hh
+ create mode 100644 labs/lab6/exercises/4-quoting/'12
+ create mode 100644 labs/lab6/exercises/4-quoting/**
+ create mode 100644 labs/lab6/exercises/4-quoting/-l
+ create mode 100644 "labs/lab6/exercises/4-quoting/1\"2"
+ create mode 100644 labs/lab6/exercises/4-quoting/1$2
+ create mode 100644 "labs/lab6/exercises/4-quoting/\\\\ab"
+ create mode 100644 "labs/lab6/exercises/4-quoting/a\"b"
+ create mode 100644 labs/lab6/exercises/4-quoting/a$b
+ create mode 100644 labs/lab6/exercises/4-quoting/a'b
+ create mode 100644 labs/lab6/lab6.html
+ create mode 100644 labs/lab6/lab6.pdf
+ create mode 100644 labs/lab6/lab6.umt
+ create mode 100644 labs/lab6/lab6/hl-fine_blue.css
+ create mode 100644 labs/lab6/lab6/hl-fine_blue.sty
+ create mode 100644 slides/collections1/code/lists/.gitignore
+ create mode 100644 slides/collections2/figs/chain-tree.png
+rgeary1@remote01:~/cs240$ cd ~/i240a/submit/lab6
+rgeary1@remote01:~/i240a/submit/lab6$ cp -r ~/cs240/;[Klabs/lab6/exercises .
+rgeary1@remote01:~/i240a/submit/lab6$ ls -l
+total 24
+drwxr-x--- 3 rgeary1 rgeary1    30 Mar 12 12:13 exercises
+-rw-r----- 1 rgeary1 rgeary1 24576 Mar 12 12:00 lab6.LOG
+rgeary1@remote01:~/i240a/submit/lab6$ mkdir dir [K
+rgeary1@remote01:~/i240a/submit/lab6$ touch t1.c
+rgeary1@remote01:~/i240a/submit/lab6$ ls
+dir  exercises	lab6.LOG  t1.c
+rgeary1@remote01:~/i240a/submit/lab6$ ls -l
+total 24
+drwxr-x--- 2 rgeary1 rgeary1    10 Mar 12 12:14 dir
+drwxr-x--- 3 rgeary1 rgeary1    30 Mar 12 12:13 exercises
+-rw-r----- 1 rgeary1 rgeary1 24576 Mar 12 12:00 lab6.LOG
+-rw-r----- 1 rgeary1 rgeary1     0 Mar 12 12:14 t1.c
+rgeary1@remote01:~/i240a/submit/lab6$ ls -tl
+total 24
+-rw-r----- 1 rgeary1 rgeary1     0 Mar 12 12:14 t1.c
+drwxr-x--- 2 rgeary1 rgeary1    10 Mar 12 12:14 dir
+drwxr-x--- 3 rgeary1 rgeary1    30 Mar 12 12:13 exercises
+-rw-r----- 1 rgeary1 rgeary1 24576 Mar 12 12:00 lab6.LOG
+rgeary1@remote01:~/i240a/submit/lab6$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                                  User Commands                                 LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information about the FILEs (the current directory by default).  Sort entries[m
+       alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see[m
+              SIZE format below[m
+[m
+       [1m-B[0m, [1m--ignore-backups[0m[m
+              do not list implied entries ending with ~[m
+[m
+       [1m-c[0m     with [1m-lt[0m: sort by, and show, ctime (time of last modification of file status[m
+              information); with [1m-l[0m: show ctime and  sort  by  name;  otherwise:  sort  by[m
+              ctime, newest first[m
+[m
+       [1m-C[0m     list entries by columns[m
+[m
+       [1m--color[0m[=[4mWHEN[24m][m
+              colorize  the  output; WHEN can be 'always' (default if omitted), 'auto', or[m
+              'never'; more info below[m
+[m
+       [1m-d[0m, [1m--directory[0m[m
+              list directories themselves, not their contents[m
+[m
+       [1m-D[0m, [1m--dired[0m[m
+              generate output designed for Emacs' dired mode[m
+[m
+       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K66[K~~[K[m
+       [1m-F[0m, [1m--classify[0m[m
+              append indicator (one of */=>@|) to entries[m
+[m
+       [1m--file-type[0m[m
+              likewise, except do not append '*'[m
+[m
+       [1m--format[0m=[4mWORD[24m[m
+              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long [1m-l[0m, single-column [1m-1[0m, verbose  [1m-l[0m,[m
+              vertical [1m-C[0m[m
+[m
+       [1m--full-time[0m[m
+              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[m
+       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[m
+       [1m--group-directories-first[0m[m
+              group directories before files;[m
+[m
+              can  be augmented with a [1m--sort[0m option, but any use of [1m--sort[0m=[4mnone[24m ([1m-U[0m) dis‐[m
+              ables grouping[m
+[m
+       [1m-G[0m, [1m--no-group[0m[m
+              in a long listing, don't print group names[m
+[m
+       [1m-h[0m, [1m--human-readable[0m[m
+              with [1m-l[0m and [1m-s[0m, print sizes like 1K 234M 2G etc.[m
+[m
+       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[m
+       [1m-H[0m, [1m--dereference-command-line[0m[m
+              follow symbolic links listed on the command line[m
+[m
+       [1m--dereference-command-line-symlink-to-dir[0m[m
+              follow each command line symbolic link[m
+[m
+              that points to a directory[m
+[m
+       [1m--hide[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN (overridden by [1m-a[0m or [1m-A[0m)[m
+[m
+       [1m--hyperlink[0m[=[4mWHEN[24m][m
+              hyperlink file names; WHEN can be 'always' (default if omitted), 'auto',  or[m
+              'never'[m
+[m
+       [1m--indicator-style[0m=[4mWORD[24m[m
+              append indicator with style WORD to entry names: none (default), slash ([1m-p[0m),[m
+              file-type ([1m--file-type[0m), classify ([1m-F[0m)[m
+[m
+       [1m-i[0m, [1m--inode[0m[m
+[7m Manual page ls(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K66[K~~[K              print the index number of each file[m
+[m
+       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN[m
+[m
+       [1m-k[0m, [1m--kibibytes[0m[m
+              default to 1024-byte blocks for disk usage; used only with [1m-s[0m and per direc‐[m
+              tory totals[m
+[m
+       [1m-l[0m     use a long listing format[m
+[m
+       [1m-L[0m, [1m--dereference[0m[m
+              when  showing file information for a symbolic link, show information for the[m
+              file the link references rather than for the link itself[m
+[m
+       [1m-m[0m     fill width with a comma separated list of entries[m
+[m
+       [1m-n[0m, [1m--numeric-uid-gid[0m[m
+              like [1m-l[0m, but list numeric user and group IDs[m
+[m
+       [1m-N[0m, [1m--literal[0m[m
+              print entry names without quoting[m
+[m
+       [1m-o[0m     like [1m-l[0m, but do not list group information[m
+[m
+       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m[m
+              append / indicator to directories[m
+[m
+       [1m-q[0m, [1m--hide-control-chars[0m[m
+              print ? instead of nongraphic characters[m
+[m
+       [1m--show-control-chars[0m[m
+              show nongraphic characters as-is (the default, unless program  is  'ls'  and[m
+              output is a terminal)[m
+[m
+       [1m-Q[0m, [1m--quote-name[0m[m
+              enclose entry names in double quotes[m
+[m
+       [1m--quoting-style[0m=[4mWORD[24m[m
+              use  quoting  style  WORD for entry names: literal, locale, shell, shell-al‐[m
+              ways, shell-escape, shell-escape-always, c, escape (overrides  QUOTING_STYLE[m
+              environment variable)[m
+[m
+       [1m-r[0m, [1m--reverse[0m[m
+              reverse order while sorting[m
+[m
+       [1m-R[0m, [1m--recursive[0m[m
+              list subdirectories recursively[m
+[m
+       [1m-s[0m, [1m--size[0m[m
+[7m Manual page ls(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K66[K~~[K              print the allocated size of each file, in blocks[m
+[m
+       [1m-S[0m     sort by file size, largest first[m
+[m
+       [1m--sort[0m=[4mWORD[24m[m
+              sort by WORD instead of name: none ([1m-U[0m), size ([1m-S[0m), time ([1m-t[0m), version ([1m-v[0m),[m
+              extension ([1m-X[0m)[m
+[m
+       [1m--time[0m=[4mWORD[24m[m
+              with [1m-l[0m, show time as WORD instead of default modification  time:  atime  or[m
+              access  or  use  ([1m-u[0m); ctime or status ([1m-c[0m); also use specified time as sort[m
+              key if [1m--sort[0m=[4mtime[24m (newest first)[m
+[m
+       [1m--time-style[0m=[4mTIME_STYLE[24m[m
+              time/date format with [1m-l[0m; see TIME_STYLE below[m
+[m
+       [1m-t[0m     sort by modification time, newest first[m
+[m
+       [1m-T[0m, [1m--tabsize[0m=[4mCOLS[24m[m
+              assume tab stops at each COLS instead of 8[m
+[m
+       [1m-u[0m     with [1m-lt[0m: sort by, and show, access time; with [1m-l[0m: show access time and sort[m
+              by name; otherwise: sort by access time, newest first[m
+[m
+       [1m-U[0m     do not sort; list entries in directory order[m
+[m
+       [1m-v[0m     natural sort of (version) numbers within text[m
+[m
+       [1m-w[0m, [1m--width[0m=[4mCOLS[24m[m
+              set output width to COLS.  0 means no limit[m
+[m
+       [1m-x[0m     list entries by lines instead of by columns[m
+[m
+       [1m-X[0m     sort alphabetically by entry extension[m
+[m
+       [1m-Z[0m, [1m--context[0m[m
+              print any security context of each file[m
+[m
+       [1m-1[0m     list one file per line.  Avoid '\n' with [1m-q[0m or [1m-b[0m[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       The SIZE argument is an integer and optional unit (example: 10K is 10*1024).  Units[m
+       are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).[m
+[m
+       The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.  FORMAT[m
+       is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2, then FORMAT1[m
+[7m Manual page ls(1) line 151 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0trgeary1@remote01:~/i240a/submit/lab6$ 
+rgeary1@remote01:~/i240a/submit/lab6$ cd dir
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls -l
+total 0
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls
+rgeary1@remote01:~/i240a/submit/lab6/dir$ cd ..
+rgeary1@remote01:~/i240a/submit/lab6$ touch t1.c T1.s c[Kv.c v1.s x.c dir/t2[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c f[Kdir/T@[K2.s1 die[Kr/t3
+rgeary1@remote01:~/i240a/submit/lab6$ cd dir
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls [K
+t2.c  T2.s1  t3
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls -l
+total 0
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 t2.c
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 T2.s1
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 t3
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls -tl
+total 0
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 t3
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 T2.s1
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:18 t2.c
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls -t
+t3  T2.s1  t2.c
+rgeary1@remote01:~/i240a/submit/lab6/dir$ ls [K[K[Kcd ..
+rgeary1@remote01:~/i240a/submit/lab6$ ls T*
+T1.s
+rgeary1@remote01:~/i240a/submit/lab6$ ls dir/*.?
+dir/t2.c
+rgeary1@remote01:~/i240a/submit/lab6$ ls[[K [t-v]*.c
+t1.c  v.c
+rgeary1@remote01:~/i240a/submit/lab6$ /[Kcd exercises
+rgeary1@remote01:~/i240a/submit/lab6/exercises$ ls
+4-quoting
+rgeary1@remote01:~/i240a/submit/lab6/exercises$ cd ..
+rgeary1@remote01:~/i240a/submit/lab6$ /bin[K[K[K[Kcd /bing
+bash: cd: /bing: No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6$ cd /bing[3P..[3Plscd ../bing[K
+rgeary1@remote01:/bin$ ls
+bash	       fusermount      ntfscat	      systemd
+bunzip2        getfacl	       ntfscluster    systemd-ask-password
+busybox        grep	       ntfscmp	      systemd-escape
+bzcat	       gunzip	       ntfsfallocate  systemd-hwdb
+bzcmp	       gzexe	       ntfsfix	      systemd-inhibit
+bzdiff	       gzip	       ntfsinfo       systemd-machine-id-setup
+bzegrep        hciconfig       ntfsls	      systemd-notify
+bzexe	       hostname        ntfsmove       systemd-sysusers
+bzfgrep        ip	       ntfsrecover    systemd-tmpfiles
+bzgrep	       journalctl      ntfssecaudit   systemd-tty-ask-password-agent
+bzip2	       kbd_mode        ntfstruncate   tar
+bzip2recover   keyctl	       ntfsusermap    tcsh
+bzless	       kill	       ntfswipe       tempfile
+bzmore	       kmod	       openvt	      touch
+cat	       ln	       pidof	      true
+chacl	       loadkeys        ping	      udevadm
+chgrp	       login	       ping4	      ulockmgr_server
+chmod	       loginctl        ping6	      umount
+chown	       lowntfs-3g      ps	      uname
+chvt	       ls	       pwd	      uncompress
+cp	       lsblk	       rbash	      unicode_start
+cpio	       lsmod	       readlink       vdir
+csh	       mkdir	       red	      wdctl
+dash	       mknod	       rm	      which
+date	       mktemp	       rmdir	      ypdomainname
+dd	       more	       rnano	      zcat
+df	       mount	       run-parts      zcmp
+dir	       mountpoint      rzsh	      zdiff
+dmesg	       mt	       sed	      zegrep
+dnsdomainname  mt-gnu	       setfacl	      zfgrep
+domainname     mv	       setfont	      zforce
+dumpkeys       nano	       setupcon       zgrep
+echo	       nc	       sh	      zless
+ed	       nc.traditional  sh.distrib     zmore
+egrep	       netcat	       sleep	      znew
+false	       netstat	       ss	      zsh
+fgconsole      networkctl      stty	      zsh5
+fgrep	       nisdomainname   su
+findmnt        ntfs-3g	       sync
+fuser	       ntfs-3g.probe   systemctl
+rgeary1@remote01:/bin$ ls*[p-s]
+bash: ls*[p-s]: command not found
+rgeary1@remote01:/bin$ ls*[p-s][K*[p-s] *[p-s]
+bzcmp	      dir	ip	     ntfsrecover	       systemd-sysusers  zfgrep
+bzegrep       dumpkeys	loadkeys     ntfsusermap	       systemd-tmpfiles  zgrep
+bzfgrep       egrep	ls	     ps			       tar		 zless
+bzgrep	      fgrep	mkdir	     rmdir		       ulockmgr_server
+bzip2recover  fuser	mktemp	     run-parts		       uncompress
+bzless	      grep	ntfscluster  sleep		       vdir
+chgrp	      gunzip	ntfscmp      ss			       zcmp
+cp	      gzip	ntfsls	     systemd-machine-id-setup  zegrep
+rgeary1@remote01:/bin$ ls *[p-s]?[p-s]
+bzcmp	      dir	ip	     ntfsrecover	       systemd-sysusers  zfgrep
+bzegrep       dumpkeys	loadkeys     ntfsusermap	       systemd-tmpfiles  zgrep
+bzfgrep       egrep	ls	     ps			       tar		 zless
+bzgrep	      fgrep	mkdir	     rmdir		       ulockmgr_server
+bzip2recover  fuser	mktemp	     run-parts		       uncompress
+bzless	      grep	ntfscluster  sleep		       vdir
+chgrp	      gunzip	ntfscmp      ss			       zcmp
+cp	      gzip	ntfsls	     systemd-machine-id-setup  zegrep
+rgeary1@remote01:/bin$ ls *?[p-s][C[1P[p-s]*[p-s][1P[p-s]' *[p-s][1P *[p-s][C'*[p-s][C'[p-s][C[C[C[C[C*
+ls: cannot access '*[p-s]*': No such file or directory
+rgeary1@remote01:/bin$ ls '*'[p-s]*[1P[p-s]*[1P'*[p-s]*[C[1P*[p-s]* *[p-s]*
+bash	       hostname        ntfsusermap  systemd
+bunzip2        ip	       ntfswipe     systemd-ask-password
+busybox        journalctl      openvt	    systemd-escape
+bzcmp	       loadkeys        pidof	    systemd-hwdb
+bzegrep        lowntfs-3g      ping	    systemd-inhibit
+bzfgrep        ls	       ping4	    systemd-machine-id-setup
+bzgrep	       lsblk	       ping6	    systemd-notify
+bzip2	       lsmod	       ps	    systemd-sysusers
+bzip2recover   mkdir	       pwd	    systemd-tmpfiles
+bzless	       mktemp	       rbash	    systemd-tty-ask-password-agent
+bzmore	       more	       readlink     tar
+chgrp	       mountpoint      red	    tcsh
+cp	       nc.traditional  rm	    tempfile
+cpio	       netstat	       rmdir	    true
+csh	       networkctl      rnano	    ulockmgr_server
+dash	       nisdomainname   run-parts    uncompress
+dir	       ntfs-3g	       rzsh	    unicode_start
+dmesg	       ntfs-3g.probe   sed	    vdir
+dnsdomainname  ntfscat	       setfacl	    ypdomainname
+dumpkeys       ntfscluster     setfont	    zcmp
+egrep	       ntfscmp	       setupcon     zegrep
+false	       ntfsfallocate   sh	    zfgrep
+fgconsole      ntfsfix	       sh.distrib   zforce
+fgrep	       ntfsinfo        sleep	    zgrep
+fuser	       ntfsls	       ss	    zless
+fusermount     ntfsmove        stty	    zmore
+grep	       ntfsrecover     su	    zsh
+gunzip	       ntfssecaudit    sync	    zsh5
+gzip	       ntfstruncate    systemctl
+rgeary1@remote01:/bin$ ls *[p-s]*[K?
+bash	 bzmore  dmesg	   ps	  sh			systemd-escape	  unicode_start
+bunzip2  chgrp	 false	   rbash  ss			systemd-sysusers  zless
+bzip2	 csh	 more	   rm	  su			tcsh		  zmore
+bzless	 dash	 ntfswipe  rzsh   systemd-ask-password	uncompress	  zsh
+rgeary1@remote01:/bin$ ls *[p-s]?[1P[p-s]??[p-s]?[C[C[C[C[C[C[K*
+cp  cpio  csh  grep  ip  ls  lsblk  lsmod  openvt  ps  ss  true  ypdomainname  zsh  zsh5
+rgeary1@remote01:/bin$ /etc
+bash: /etc: Is a directory
+rgeary1@remote01:/bin$ cd /etc
+rgeary1@remote01:/etc$ *rc[K[Krc
+bash: bash.bashrc: command not found
+rgeary1@remote01:/etc$ *rcl*rcs*rc *rc
+bash.bashrc  gnashpluginrc     inputrc	  matplotlibrc	pbuilderrc     screenrc
+chktexrc     gnashrc	       lintianrc  Muttrc	quilt.quiltrc  slsh.rc
+csh.cshrc    gnashthumbnailrc  mail.rc	  nanorc	sbclrc	       wgetrc
+rgeary1@remote01:/etc$ cd /binm[K
+rgeary1@remote01:/bin$ ls ???
+cat  csh  dir  pwd  red  sed  tar  zsh
+rgeary1@remote01:/bin$ ls > ls.log[K[K[K[K[K[K[K[K[K[K[Kcd ~/i240a/submit/lab6
+rgeary1@remote01:~/i240a/submit/lab6$ ls
+dir  exercises	lab6.LOG  t1.c	T1.s  v1.s  v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$ ls >ls.log
+rgeary1@remote01:~/i240a/submit/lab6$ ls
+dir  exercises	lab6.LOG  ls.log  t1.c	T1.s  v1.s  v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$  [Kcat ls.log
+dir
+exercises
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+rgeary1@remote01:~/i240a/submit/lab6$ cat > cat.log
+hello
+bonjour
+si
+rgeary1@remote01:~/i240a/submit/lab6$ cat cat.log
+hello
+bonjour
+si
+rgeary1@remote01:~/i240a/submit/lab6$ dir >> ls.log
+rgeary1@remote01:~/i240a/submit/lab6$ cat ls.log
+dir
+exercises
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+cat.log  dir  exercises  lab6.LOG  ls.log  t1.c  T1.s  v1.s  v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$ cat < ls.log
+dir
+exercises
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+cat.log  dir  exercises  lab6.LOG  ls.log  t1.c  T1.s  v1.s  v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$ cat cat.log
+hello
+bonjour
+si
+rgeary1@remote01:~/i240a/submit/lab6$ ls | wc -l
+10
+rgeary1@remote01:~/i240a/submit/lab6$ cd /[K[K[K[Kls | wc -1 /bin
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+rgeary1@remote01:~/i240a/submit/lab6$ ls | wc -1 /bin[C[1P /binl /bin
+wc: /bin: Is a directory
+0 /bin
+rgeary1@remote01:~/i240a/submit/lab6$ cd /bin
+rgeary1@remote01:/bin$ ls | cs[K[Ksc =l[K[K[K[K[Kwc -l
+157
+rgeary1@remote01:/bin$ cd ~/i240a/submit/lab6/
+rgeary1@remote01:~/i240a/submit/lab6$ ls c* /bin > bin-c.log
+rgeary1@remote01:~/i240a/submit/lab6$ cat[Kt bin-c.log
+cat.log
+
+/bin:
+bash
+bunzip2
+busybox
+bzcat
+bzcmp
+bzdiff
+bzegrep
+bzexe
+bzfgrep
+bzgrep
+bzip2
+bzip2recover
+bzless
+bzmore
+cat
+chacl
+chgrp
+chmod
+chown
+chvt
+cp
+cpio
+csh
+dash
+date
+dd
+df
+dir
+dmesg
+dnsdomainname
+domainname
+dumpkeys
+echo
+ed
+egrep
+false
+fgconsole
+fgrep
+findmnt
+fuser
+fusermount
+getfacl
+grep
+gunzip
+gzexe
+gzip
+hciconfig
+hostname
+ip
+journalctl
+kbd_mode
+keyctl
+kill
+kmod
+ln
+loadkeys
+login
+loginctl
+lowntfs-3g
+ls
+lsblk
+lsmod
+mkdir
+mknod
+mktemp
+more
+mount
+mountpoint
+mt
+mt-gnu
+mv
+nano
+nc
+nc.traditional
+netcat
+netstat
+networkctl
+nisdomainname
+ntfs-3g
+ntfs-3g.probe
+ntfscat
+ntfscluster
+ntfscmp
+ntfsfallocate
+ntfsfix
+ntfsinfo
+ntfsls
+ntfsmove
+ntfsrecover
+ntfssecaudit
+ntfstruncate
+ntfsusermap
+ntfswipe
+openvt
+pidof
+ping
+ping4
+ping6
+ps
+pwd
+rbash
+readlink
+red
+rm
+rmdir
+rnano
+run-parts
+rzsh
+sed
+setfacl
+setfont
+setupcon
+sh
+sh.distrib
+sleep
+ss
+stty
+su
+sync
+systemctl
+systemd
+systemd-ask-password
+systemd-escape
+systemd-hwdb
+systemd-inhibit
+systemd-machine-id-setup
+systemd-notify
+systemd-sysusers
+systemd-tmpfiles
+systemd-tty-ask-password-agent
+tar
+tcsh
+tempfile
+touch
+true
+udevadm
+ulockmgr_server
+umount
+uname
+uncompress
+unicode_start
+vdir
+wdctl
+which
+ypdomainname
+zcat
+zcmp
+zdiff
+zegrep
+zfgrep
+zforce
+zgrep
+zless
+zmore
+znew
+zsh
+zsh5
+rgeary1@remote01:~/i240a/submit/lab6$ rm -f bin-c.log 
+rgeary1@remote01:~/i240a/submit/lab6$ ls
+cat.log  dir  exercises  lab6.LOG  ls.log  t1.c  T1.s  v1.s  v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$ lsrm -f bin-c.log [3Pcat bin-c.logrm -f bin-c.log [3Pcat bin-c.log[9@ls c* /bin >[C[C[C[C[C[C[C[C[C[C[C[C[1@[[C[1@]
+rgeary1@remote01:~/i240a/submit/lab6$ ls [c]* /bin > bin-c.log[Krm -f bin-c.log [3Pcat bin-c.log
+cat.log
+
+/bin:
+bash
+bunzip2
+busybox
+bzcat
+bzcmp
+bzdiff
+bzegrep
+bzexe
+bzfgrep
+bzgrep
+bzip2
+bzip2recover
+bzless
+bzmore
+cat
+chacl
+chgrp
+chmod
+chown
+chvt
+cp
+cpio
+csh
+dash
+date
+dd
+df
+dir
+dmesg
+dnsdomainname
+domainname
+dumpkeys
+echo
+ed
+egrep
+false
+fgconsole
+fgrep
+findmnt
+fuser
+fusermount
+getfacl
+grep
+gunzip
+gzexe
+gzip
+hciconfig
+hostname
+ip
+journalctl
+kbd_mode
+keyctl
+kill
+kmod
+ln
+loadkeys
+login
+loginctl
+lowntfs-3g
+ls
+lsblk
+lsmod
+mkdir
+mknod
+mktemp
+more
+mount
+mountpoint
+mt
+mt-gnu
+mv
+nano
+nc
+nc.traditional
+netcat
+netstat
+networkctl
+nisdomainname
+ntfs-3g
+ntfs-3g.probe
+ntfscat
+ntfscluster
+ntfscmp
+ntfsfallocate
+ntfsfix
+ntfsinfo
+ntfsls
+ntfsmove
+ntfsrecover
+ntfssecaudit
+ntfstruncate
+ntfsusermap
+ntfswipe
+openvt
+pidof
+ping
+ping4
+ping6
+ps
+pwd
+rbash
+readlink
+red
+rm
+rmdir
+rnano
+run-parts
+rzsh
+sed
+setfacl
+setfont
+setupcon
+sh
+sh.distrib
+sleep
+ss
+stty
+su
+sync
+systemctl
+systemd
+systemd-ask-password
+systemd-escape
+systemd-hwdb
+systemd-inhibit
+systemd-machine-id-setup
+systemd-notify
+systemd-sysusers
+systemd-tmpfiles
+systemd-tty-ask-password-agent
+tar
+tcsh
+tempfile
+touch
+true
+udevadm
+ulockmgr_server
+umount
+uname
+uncompress
+unicode_start
+vdir
+wdctl
+which
+ypdomainname
+zcat
+zcmp
+zdiff
+zegrep
+zfgrep
+zforce
+zgrep
+zless
+zmore
+znew
+zsh
+zsh5
+rgeary1@remote01:~/i240a/submit/lab6$ cat bin-c.log[11@ls [c]* /bin >[C[C[C[C[C[C[C[C[C[C[Krm -f bin-c.log 
+rgeary1@remote01:~/i240a/submit/lab6$ rm -f bin-c.log [3Pcat bin-c.log[11@ls [c]* /bin >[C[C[C[C[C[C[C[C[C[C[1P[1P[C[C[C[C[C[C[C[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@b[1@i[1@n[1@/[1@c[1@*
+rgeary1@remote01:~/i240a/submit/lab6$ cat [K[K[K[Kls /bin/c* > bin-c.log[6Prm -f bin-c.log [3Pcat bin-c.log
+/bin/cat
+/bin/chacl
+/bin/chgrp
+/bin/chmod
+/bin/chown
+/bin/chvt
+/bin/cp
+/bin/cpio
+/bin/csh
+rgeary1@remote01:~/i240a/submit/lab6$ ls | wc -l bin-c.log 
+9 bin-c.log
+rgeary1@remote01:~/i240a/submit/lab6$ man tr
+[?1049h[22;0;0t[?1h=TR(1)                                  User Commands                                 TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate,  squeeze, and/or delete characters from standard input, writing to stan‐[m
+       dard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a repeated character that is  listed  in  the  last[m
+              specified SET, with a single occurrence of that character[m
+[m
+       [1m-t[0m, [1m--truncate-set1[0m[m
+              first truncate SET1 to length of SET2[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       SETs  are  specified  as strings of characters.  Most represent themselves.  Inter‐[m
+       preted sequences are:[m
+[m
+       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[m
+       \\     backslash[m
+[m
+       \a     audible BEL[m
+[m
+       \b     backspace[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     return[m
+[m
+       \t     horizontal tab[m
+[m
+       \v     vertical tab[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K11[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K66[K~~[K[m
+       CHAR1-CHAR2[m
+              all characters from CHAR1 to CHAR2 in ascending order[m
+[m
+       [CHAR*][m
+              in SET2, copies of CHAR until length of SET1[m
+[m
+       [CHAR*REPEAT][m
+              REPEAT copies of CHAR, REPEAT octal if starting with 0[m
+[m
+       [:alnum:][m
+              all letters and digits[m
+[m
+       [:alpha:][m
+              all letters[m
+[m
+       [:blank:][m
+              all horizontal whitespace[m
+[m
+       [:cntrl:][m
+              all control characters[m
+[m
+       [:digit:][m
+              all digits[m
+[m
+       [:graph:][m
+              all printable characters, not including space[m
+[m
+       [:lower:][m
+              all lower case letters[m
+[m
+       [:print:][m
+              all printable characters, including space[m
+[m
+       [:punct:][m
+              all punctuation characters[m
+[m
+       [:space:][m
+              all horizontal or vertical whitespace[m
+[m
+       [:upper:][m
+              all upper case letters[m
+[m
+       [:xdigit:][m
+              all hexadecimal digits[m
+[m
+       [=CHAR=][m
+              all characters which are equivalent to CHAR[m
+[m
+       Translation occurs if [1m-d[0m is not given and both SET1 and SET2  appear.   [1m-t[0m  may  be[m
+[7m Manual page tr(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K66[K~~[K       used  only  when  translating.  SET2 is extended to length of SET1 by repeating its[m
+       last character  as  necessary.   Excess  characters  of  SET2  are  ignored.   Only[m
+       [:lower:]  and  [:upper:] are guaranteed to expand in ascending order; used in SET2[m
+       while translating, they may only be used in pairs to specify case  conversion.   [1m-s[0m[m
+       uses the last specified SET, and occurs after translation or deletion.[m
+[m
+[1mAUTHOR[0m[m
+       Written by Jim Meyering.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>[m
+       Report tr translation bugs to <https://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright  © 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3[m
+       or later <https://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute  it.   There  is  NO[m
+       WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       Full documentation at: <https://www.gnu.org/software/coreutils/tr>[m
+       or available locally via: info '(coreutils) tr invocation'[m
+[m
+GNU coreutils 8.30                     February 2019                                 TR(1)[m
+[7m Manual page tr(1) line 75/124 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all digits[m
+[51;1H[K[7m Manual page tr(1) line 74/124 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.30                     February 2019                                 TR(1)[m
+[7m Manual page tr(1) line 75/124 (END) (press h for help or q to quit)[27m[K[K [KESCESC[Kqq[K[7m Manual page tr(1) line 75/124 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0trgeary1@remote01:~/i240a/submit/lab6$ cat < bin-c.log[1P bin-c.log[1Pbin-c.log[1P bin-c.log[1P bin-c.log[1P bin-c.logl bin-c.logs bin-c.log[C bin-c.log| bin-c.log[C bin-c.logt bin-c.logr bin-c.log[C bin-c.log[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman tr
+[?1049h[22;0;0t[?1h=TR(1)                                  User Commands                                 TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate,  squeeze, and/or delete characters from standard input, writing to stan‐[m
+       dard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a repeated character that is  listed  in  the  last[m
+              specified SET, with a single occurrence of that character[m
+[m
+       [1m-t[0m, [1m--truncate-set1[0m[m
+              first truncate SET1 to length of SET2[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       SETs  are  specified  as strings of characters.  Most represent themselves.  Inter‐[m
+       preted sequences are:[m
+[m
+       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[m
+       \\     backslash[m
+[m
+       \a     audible BEL[m
+[m
+       \b     backspace[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     return[m
+[m
+       \t     horizontal tab[m
+[m
+       \v     vertical tab[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0trgeary1@remote01:~/i240a/submit/lab6$ 
+rgeary1@remote01:~/i240a/submit/lab6$ cat bin[K[K[K[K[K[K[Kls > ls.log
+rgeary1@remote01:~/i240a/submit/lab6$ cat[K[K[Krm -f ls.log
+rgeary1@remote01:~/i240a/submit/lab6$ ls > ls.log
+rgeary1@remote01:~/i240a/submit/lab6$ cat ls.log | tr "[:lower<[K:]" "[:upper:}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K]"
+BIN-C.LOG
+CAT.LOG
+DIR
+EXERCISES
+LAB6.LOG
+LS.LOG
+T1.C
+T1.S
+V1.S
+V.C
+X.C
+rgeary1@remote01:~/i240a/submit/lab6$ cd 4[Kq[K[K[K[Kls
+bin-c.log  cat.log  dir  exercises  lab6.LOG  ls.log  t1.c  T1.s  v1.s	v.c  x.c
+rgeary1@remote01:~/i240a/submit/lab6$ cd exercises/
+rgeary1@remote01:~/i240a/submit/lab6/exercises$ cd[K[K.[Kcd 4-quoting/
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \\
+\
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \'
+'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \*
+*
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \$HOME\"\\
+$HOME"\
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo '\'
+\
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \[K'\\'
+\\
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo '*$~\[K'
+*$~
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo '\''
+> '
+\
+
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo "\"\\"
+"\
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo "$HOME"
+/home/rgeary1
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ echo \
+> ac[Kbc\
+> 123
+abc123
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls '$'
+ls: cannot access '$': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls $
+ls: cannot access '$': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls "$"
+ls: cannot access '$': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls \$
+ls: cannot access '$': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls[$]
+bash: ls[$]: command not found
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls[$] [1@ 
+ls: cannot access '[$]': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[K*[$]*
+'1$2'  'a$b'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[']*
+> '
+ls: cannot access '*[]*'$'\n': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[']*
+'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+\'[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\']*
+"'12"  "a'b"
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[\']*[C[1P]*\]*
+'\\ab'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[\\]*[C[1P]*
+ls: cannot access '*[]*': No such file or directory
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *[\]*[1P]*']*\]*']*
+'\\ab'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls *['\']*[C[K[K[K[K[K[K[K\\*
+'\\ab'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls ??
+-rw-r----- 1 rgeary1 rgeary1 0 Mar 12 12:13 '**'
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ ls __[K[K-- ??
+'**'   -l
+rgeary1@remote01:~/i240a/submit/lab6/exercises/4-quoting$ exit
+
+Script done on 2020-03-12 13:14:44-04:00 [COMMAND_EXIT_CODE="0"]
