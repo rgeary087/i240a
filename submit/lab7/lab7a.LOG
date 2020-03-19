@@ -1,0 +1,19 @@
+Script started on 2020-03-19 17:04:39-04:00 [TERM="xterm" TTY="/dev/pts/7" COLUMNS="93" LINES="24"]
+rgeary1@remote04:~/i240a/submit/lab7$ cd exercises/4-rm/
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ make [K[K[K[K[Kcd exercises/4-rm/[8Pvim rm.hh ./main list ../test.data 2243[3P[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake -f ../Makefile
+make: Nothing to be done for 'all'.
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ make -f ../Makefile[1Pcd exercises/4-rm/[8Pvim rm.hh ./main list ../test.data 22
+[ 43 12 56 64 42 11 22 ]
+[ 43 12 56 64 42 11 22 ]
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ ./main list ../test.data 22[1P[1P[1P[1P[1@d[1@e[1@q[1@u[1@e
+[ 43 12 56 64 42 11 22 ]
+[ 43 12 56 64 42 11 22 ]
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ ./main deque ../test.data 22[1Plist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@deque[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@[[1@]
+[ 43 12 56 64 42 11 22 ]
+[ 43 12 56 64 42 11 22 ]
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ ./main [] ../test.data 22[1P[1P[1@l[1@i[1@s[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K100
+[ 22 43 12 56 64 42 11 22 ]
+[ 22 43 12 56 64 42 11 22 ]
+rgeary1@remote04:~/i240a/submit/lab7/exercises/4-rm$ exit
+
+Script done on 2020-03-19 17:05:31-04:00 [COMMAND_EXIT_CODE="0"]
