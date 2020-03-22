@@ -1,11 +1,25 @@
+CXX = g++
 CXXFLAGS = -g -Wall -std=c++17
-
 CXX_FILES = $(wildcard *.cc)
-TARGETS = $(CXX_FILES:%.cc=%)
 
-all: $(TARGETS) .gitignore
+all:		seq-test nums clean
 
-.PHONY: clean
+seq-test: 	seq-test.o command.o 
+		$(CXX) $(CXXFLAGS) -o seq-test seq-test.o command.o
 
-clean:
-	rm -f *~ *.0 $(TARGET)
+seq-test.o: 	seq-test.cc arrayseq.hh command.hh seq.hh
+		$(CXX) $(CXXFLAGS) -c seq-test seq-test.cc
+
+command.o:	command.cc arrayseq.hh command.hh seq.hh
+		$(CXX) $(CXXFLAGS) -c command.cc
+
+nums:		nums.o
+		$(CXX) $(CXXFLAGS) -o nums nums.o
+
+nums.o:		nums.cc arrayseq.hh
+		$(CXX) $(CXXFLAGS) -c nums.cc
+
+.phony:		clean
+
+clean:	
+		rm -f *~ *.o $(all)

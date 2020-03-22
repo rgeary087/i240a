@@ -1,0 +1,5 @@
+.deps
+main
+seq-test.o
+command.o
+nums.o
