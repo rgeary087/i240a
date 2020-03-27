@@ -1,0 +1,173 @@
+Script started on 2020-03-26 19:15:14-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="93" LINES="51"]
+rgeary1@remote04:~/i240a/submit/lab8$ 
+rgeary1@remote04:~/i240a/submit/lab8$ 
+rgeary1@remote04:~/i240a/submit/lab8$ cp -r ~/cs240/labs/lab8/exercises .\[K
+rgeary1@remote04:~/i240a/submit/lab8$ ls
+exercises  lab8.LOG
+rgeary1@remote04:~/i240a/submit/lab8$ env
+SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+KRB5CCNAME=FILE:/tmp/krb5cc_14700_XvlHqxIbkR
+PWD=/home/rgeary1/i240a/submit/lab8
+LOGNAME=rgeary1
+XDG_SESSION_TYPE=tty
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/rgeary1
+LANG=en_US.UTF-8
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+SSH_CONNECTION=74.78.203.248 64451 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=xterm
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=rgeary1
+SHLVL=2
+XDG_SESSION_ID=188919
+CLASSPATH=.:/home/rgeary1/cs240/lib
+LD_LIBRARY_PATH=.:/home/rgeary1/cs240/lib
+XDG_RUNTIME_DIR=/run/user/14700
+SSH_CLIENT=74.78.203.248 64451 22
+PATH=/home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14700/bus
+MAIL=/var/mail/rgeary1
+SSH_TTY=/dev/pts/2
+OLDPWD=/home/rgeary1/i240a
+_=/usr/bin/env
+rgeary1@remote04:~/i240a/submit/lab8$ echo $HOME
+/home/rgeary1
+rgeary1@remote04:~/i240a/submit/lab8$ echo $PATH
+/home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+rgeary1@remote04:~/i240a/submit/lab8$ echo $xxx
+
+rgeary1@remote04:~/i240a/submit/lab8$ xxx=123
+rgeary1@remote04:~/i240a/submit/lab8$ xxx=123echo $xxx
+123
+rgeary1@remote04:~/i240a/submit/lab8$ env | grep xxx
+rgeary1@remote04:~/i240a/submit/lab8$ export xxx
+rgeary1@remote04:~/i240a/submit/lab8$ env | grep xx
+xxx=123
+rgeary1@remote04:~/i240a/submit/lab8$ export xx = [K[K[K=456
+rgeary1@remote04:~/i240a/submit/lab8$ env | grep xx
+xxx=123
+xx=456
+rgeary1@remote04:~/i240a/submit/lab8$ p=$PATH
+rgeary1@remote04:~/i240a/submit/lab8$ echo $p
+/home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+rgeary1@remote04:~/i240a/submit/lab8$ ls
+exercises  lab8.LOG
+rgeary1@remote04:~/i240a/submit/lab8$ $PARTH[K[K[Kth=[K[K[KTH=
+bash: /home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+rgeary1@remote04:~/i240a/submit/lab8$ $PATH=0
+bash: /home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=0: No such file or directory
+rgeary1@remote04:~/i240a/submit/lab8$ $PAR[KTH=/
+bash: /home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=/: No such file or directory
+rgeary1@remote04:~/i240a/submit/lab8$ PAR[KTH =[K[K=
+rgeary1@remote04:~/i240a/submit/lab8$ echo $PAR[KTH
+
+rgeary1@remote04:~/i240a/submit/lab8$ ls
+bash: ls: No such file or directory
+rgeary1@remote04:~/i240a/submit/lab8$ PAR[KTH=p
+rgeary1@remote04:~/i240a/submit/lab8$ echo $PATH
+p
+rgeary1@remote04:~/i240a/submit/lab8$ PAR[KTH=$p
+rgeary1@remote04:~/i240a/submit/lab8$ echo $PATH
+/home/rgeary1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+rgeary1@remote04:~/i240a/submit/lab8$ ls
+exercises  lab8.LOG
+rgeary1@remote04:~/i240a/submit/lab8$ ls ; wc *
+exercises  lab8.LOG
+wc: exercises: Is a directory
+      0       0       0 exercises
+      0       0       0 lab8.LOG
+      0       0       0 total
+rgeary1@remote04:~/i240a/submit/lab8$ find -L ~/cs240 -name '*.c' | wc -l
+0
+rgeary1@remote04:~/i240a/submit/lab8$ find -L ~/cs240 -name '*.c' | wc -l[K[K[K[K[K[K[K[K[K[Kc'
+rgeary1@remote04:~/i240a/submit/lab8$ 
+rgeary1@remote04:~/i240a/submit/lab8$ find -L ~/cs240 -name '*.c'[C[1P[1P[1P
+rgeary1@remote04:~/i240a/submit/lab8$ find ~/cs240 -name '*.c'[3@-L [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | wc -lls ; wc *[Kfind -L ~/cs240 -name '*.c' | wc -l[1P[1P
+0
+rgeary1@remote04:~/i240a/submit/lab8$ fin [Kd / name[K[K[K[K-name '*.c"[K' 2>/deve[K/null >c-files.lst &
+[1] 2145588
+rgeary1@remote04:~/i240a/submit/lab8$ jobs
+[1]+  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+rgeary1@remote04:~/i240a/submit/lab8$ kill %1
+rgeary1@remote04:~/i240a/submit/lab8$ jobs
+[1]+  Terminated              find / -name '*.c' 2> /dev/null > c-files.lst
+rgeary1@remote04:~/i240a/submit/lab8$ cd ~
+rgeary1@remote04:~$ pwd
+/home/rgeary1
+rgeary1@remote04:~$ xx=123
+rgeary1@remote04:~$ pwd; exho $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echp[Kp[Ko $xx
+/home/rgeary1
+bash: exho: command not found
+/
+abc
+/home/rgeary1
+123
+rgeary1@remote04:~$ pwd; exho $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx[C[1P[1@c
+/home/rgeary1
+123
+/
+abc
+/home/rgeary1
+123
+rgeary1@remote04:~$ cd ~/i240a/submit/lab8
+rgeary1@remote04:~/i240a/submit/lab8$ cd 3[Kexercises/3-subshells/
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ ls
+Makefile
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240
+ls
+Makefile
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ vim Makefile 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;51r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[51;1H"Makefile" 3L, 23C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mall:[m
+[31m                cd ~/cs240
+                ls[m
+[1m[34m~                                                                                            [5;1H~                                                                                            [6;1H~                                                                                            [7;1H~                                                                                            [8;1H~                                                                                            [9;1H~                                                                                            [10;1H~                                                                                            [11;1H~                                                                                            [12;1H~                                                                                            [13;1H~                                                                                            [14;1H~                                                                                            [15;1H~                                                                                            [16;1H~                                                                                            [17;1H~                                                                                            [18;1H~                                                                                            [19;1H~                                                                                            [20;1H~                                                                                            [21;1H~                                                                                            [22;1H~                                                                                            [23;1H~                                                                                            [24;1H~                                                                                            [25;1H~                                                                                            [26;1H~                                                                                            [27;1H~                                                                                            [28;1H~                                                                                            [29;1H~                                                                                            [30;1H~                                                                                            [31;1H~                                                                                            [32;1H~                                                                                            [33;1H~                                                                                            [34;1H~                                                                                            [35;1H~                                                                                            [36;1H~                                                                                            [37;1H~                                                                                            [38;1H~                                                                                            [39;1H~                                                                                            [40;1H~                                                                                            [41;1H~                                                                                            [42;1H~                                                                                            [43;1H~                                                                                            [44;1H~                                                                                            [45;1H~                                                                                            [46;1H~                                                                                            [47;1H~                                                                                            [48;1H~                                                                                            [49;1H~                                                                                            [50;1H~                                                                                            [m[51;76H1,1[11CAll[1;1H[?25h[?1000l[?1002h[?25l[51;76H2,3-17[2;17H[?25h[?25l[51;66H([2;17H[51;66H [1;1H[51;76H1,1   [1;1H[?25h[?25l[51;66H~@k[1;1H[51;66H   [2;8H[51;76H2,1-8[2;8H[?25h[?25l[51;66H~@k[2;8H[51;66H   [2;16H[51;78H2-16[2;16H[?25h[?25l[51;66Hi[2;16H[51;66H [2;9H[51;1H[1m-- INSERT --[m[51;13H[K[51;76H2,2-9[9CAll[2;9H[?25h[?25l[51;78H3-17[2;17H[?25h[?25l[31m(cd ~/cs240[m[51;78H4-18[2;18H[?25h[?25l[51;76H3,5-19[3;19H[?25h[?25l[31m)[m[2;17H[31m[46m([3;19H)[m[51;78H6-20[3;20H[?25h[51;1H[K[3;19H[?25l[51;66H^[[3;19H[51;66H  [3;20H[51;76H3,5-19[8CAll[3;19H[?25h[?25l[51;66H:[3;19H[51;66H[K[51;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1002l[?2004l"Makefile" 3L, 25C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ make
+(cd ~/cs240
+/bin/sh: 1: Syntax error: end of file unexpected (expecting ")")
+make: *** [Makefile:2: all] Error 2
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ makevim Makefile 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;51r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[51;1H"Makefile" 3L, 25C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mall:[m
+[31m                [m[31m[46m([m[31mcd ~/cs240
+                ls[m[31m[46m)[m
+[1m[34m~                                                                                            [5;1H~                                                                                            [6;1H~                                                                                            [7;1H~                                                                                            [8;1H~                                                                                            [9;1H~                                                                                            [10;1H~                                                                                            [11;1H~                                                                                            [12;1H~                                                                                            [13;1H~                                                                                            [14;1H~                                                                                            [15;1H~                                                                                            [16;1H~                                                                                            [17;1H~                                                                                            [18;1H~                                                                                            [19;1H~                                                                                            [20;1H~                                                                                            [21;1H~                                                                                            [22;1H~                                                                                            [23;1H~                                                                                            [24;1H~                                                                                            [25;1H~                                                                                            [26;1H~                                                                                            [27;1H~                                                                                            [28;1H~                                                                                            [29;1H~                                                                                            [30;1H~                                                                                            [31;1H~                                                                                            [32;1H~                                                                                            [33;1H~                                                                                            [34;1H~                                                                                            [35;1H~                                                                                            [36;1H~                                                                                            [37;1H~                                                                                            [38;1H~                                                                                            [39;1H~                                                                                            [40;1H~                                                                                            [41;1H~                                                                                            [42;1H~                                                                                            [43;1H~                                                                                            [44;1H~                                                                                            [45;1H~                                                                                            [46;1H~                                                                                            [47;1H~                                                                                            [48;1H~                                                                                            [49;1H~                                                                                            [50;1H~                                                                                            [m[51;76H3,5-19[8CAll[3;19H[?25h[?1000l[?1002h[?25l[2;17H[31m([3;19H)[m[51;78H3-17[3;17H[?25h[?25l[51;66Hi[3;17H[51;66H [3;17H[51;1H[1m-- INSERT --[m[51;13H[K[51;76H3,3-17[8CAll[3;17H[?25h[?25l[3;9H[31mls)[m[3;12H[K[51;78H2-9 [3;9H[?25h[?25lls)[3;4H[K[51;78H1  [3;1H[?25h[?25l[2;28H[31mls)[m
+[1m[34m~                                                                                            [m[51;76H2,14-28[2;28H[?25h[?25l[31m;ls)[m[51;79H5-29[2;29H[?25h[?25l[31m ls)[m[51;79H6-30[2;30H[?25h[51;1H[K[2;29H[?25l[51;66H^[[2;29H[51;66H  [2;30H[51;76H2,15-29[7CAll[2;29H[?25h[?25l[51;66H:[2;29H[51;66H[K[51;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1002l[?2004l"Makefile" 2L, 24C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0trgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ make
+(cd ~/cs240; ls)
+announce.html  bin	      exercises   index.umt  online	slides
+announce.umt   docs	      hws	  labs	     projects	umt.make
+assets	       exams-quizzes  index.html  misc	     README.md
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ wc [K[K[Kmakevim Makefile make[Kvim Makefile make[Kvim Makefile make[Kvim Makefile make[K[Kwc -l 'MAIN(' `find ~/cs240/proje cts -name '*.cc'`
+wc: 'MAIN(': No such file or directory
+ 159 /home/rgeary1/cs240/projects/prj1-sol/wordcounts.cc
+ 123 /home/rgeary1/cs240/projects/prj2/extras/command.cc
+  72 /home/rgeary1/cs240/projects/prj2/extras/seq-test.cc
+ 354 total
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ wc -l 'MAIN(' `find ~/cs240/projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l 'MAIN(' `find ~/cs240/projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l 'MAIN(' `find ~/cs240/projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?
+1
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ false; echo 123
+123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ true e[K[K; echo 123
+123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ falwe [K[K[Kse && echo 123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ false && echo 123[C[C[C[C[1P[1P[1@|[1@|
+123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ false || echo 123&&[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@t[1@r[1@u[1@e
+123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ true && echo 123[1P[1P[1@|[1@|
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ sleep 10
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ sleep && echo 123
+sleep: missing operand
+Try 'sleep --help' for more information.
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ sleep && echo 123[C[1@ [1@5
+123
+rgeary1@remote04:~/i240a/submit/lab8/exercises/3-subshells$ exit
+
+Script done on 2020-03-26 20:10:52-04:00 [COMMAND_EXIT_CODE="0"]
